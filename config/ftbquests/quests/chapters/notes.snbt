@@ -1,0 +1,235 @@
+{
+	id: "6D4093A923E6C58A"
+	group: "6413AA6BC4CF0718"
+	order_index: 1
+	filename: "notes"
+	title: "Notes"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.0d
+			y: -3.5d
+			id: "4814F5500DD7FD74"
+			tasks: [{
+				id: "742F9B144F4E2DA3"
+				type: "item"
+				item: "expcaves:stone_pebble"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.5d
+			id: "4D71958CEADDF44D"
+			tasks: [{
+				id: "551BE8768195491A"
+				type: "item"
+				item: "createsifter:sifter"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			id: "00C8D5387FAD0B32"
+			tasks: [{
+				id: "724CC8F03EEE8E97"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			id: "2990D127B3060414"
+			tasks: [{
+				id: "20854285D8552A3A"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			id: "21F485FE899EE2C9"
+			tasks: [{
+				id: "35A64B691E77DEF1"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			id: "1AD05ADB6B3EFD04"
+			tasks: [{
+				id: "58F5065BBD4E2F2E"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			id: "53D9A624F97C071D"
+			tasks: [{
+				id: "2E8C4E2E8C37F927"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			id: "215AACC6A2DB6EB2"
+			tasks: [{
+				id: "4D97886C292B003E"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			id: "799BDC78A27F65EE"
+			tasks: [{
+				id: "528D43133CBF4943"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			id: "00BCDAAC8B62AB85"
+			tasks: [{
+				id: "3431B9F27E018B49"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			id: "31643417A6D0BCA8"
+			tasks: [{
+				id: "2E522F6499C06F1A"
+				type: "item"
+				item: "ae2:controller"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			id: "05A55D8E273130C8"
+			tasks: [{
+				id: "6146526AA8514241"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			id: "7BF9DE8D73F2053D"
+			tasks: [{
+				id: "6088E0902B019432"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			id: "30DBF35E5FEAEAA4"
+			tasks: [{
+				id: "47E58293C912728A"
+				type: "item"
+				item: "create:copper_casing"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -4.5d
+			id: "69A388CDC4707EC2"
+			tasks: [{
+				id: "6AAE89FB5AC2FF4B"
+				type: "item"
+				item: "create:railway_casing"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			id: "792E9CEAB4F27FD3"
+			tasks: [{
+				id: "469059CC1F494FD2"
+				type: "item"
+				item: "mekanism:sps_casing"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -3.5d
+			id: "7048566A628C10BA"
+			tasks: [{
+				id: "729DA3C71AB335CC"
+				type: "item"
+				item: {
+					id: "createsifter:string_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			id: "2E4A66F37F3C936D"
+			tasks: [{
+				id: "339FA314E2982555"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			id: "4A8EE36B254C059A"
+			tasks: [{
+				id: "3CFB4A6AE722C5DA"
+				type: "item"
+				item: "functionalstorage:storage_controller"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			id: "36A92EB7A28AA571"
+			tasks: [{
+				id: "7372E08E3CE6B2C1"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			id: "6943B9F26E1970D0"
+			tasks: [{
+				id: "1F2A159CD2BA61B4"
+				type: "item"
+				item: "occultism:ritual_dummy/custom_ritual"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			id: "3F758FCA0C6E14BF"
+			tasks: [{
+				id: "1B439FD4AB0C4D7E"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+		}
+	]
+}

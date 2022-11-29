@@ -1,0 +1,166 @@
+{
+	id: "5B198C8BF3EB1AD7"
+	group: "04B79D53D739947C"
+	order_index: 0
+	filename: "im_your_info"
+	title: "Im Your Info."
+	icon: "botania:cosmetic_questgiver_mark"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Something for nothing?"
+			id: "35D21981C1B0A419"
+			tasks: [{
+				id: "5433D9A7E75E680F"
+				type: "checkmark"
+				title: "Money Values"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "YA! Money!"
+			description: ["100 = 1 Gold Coin"]
+			id: "63CF7042BCBDB17D"
+			tasks: [{
+				id: "5569FF91A62A1DA6"
+				type: "item"
+				item: "libraryferret:iron_coins_jtl"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "A golden coin? Tasty?"
+			description: ["50 = 1 Diamond Coin"]
+			dependencies: ["63CF7042BCBDB17D"]
+			id: "01B90CEFE73A574C"
+			tasks: [{
+				id: "0C20459E2AA310A2"
+				type: "item"
+				item: "libraryferret:gold_coins_jtl"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			subtitle: "SHINY!"
+			description: ["10 = 1 Emerald Coin"]
+			dependencies: ["01B90CEFE73A574C"]
+			id: "46013414DFD96063"
+			tasks: [{
+				id: "260DFFD26AEB694F"
+				type: "item"
+				item: "libraryferret:diamond_coins_jtl"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			subtitle: "Money Beyond Words"
+			description: ["10 = 1 Netherite Coin"]
+			dependencies: [
+				"01B90CEFE73A574C"
+				"46013414DFD96063"
+			]
+			id: "023B968855127074"
+			tasks: [{
+				id: "5578A08EFEA3F461"
+				type: "item"
+				item: "libraryferret:emerald_coins_jtl"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			subtitle: "The Money Isnt Everything..."
+			description: ["This Is The Final Coin"]
+			dependencies: ["023B968855127074"]
+			id: "3D63CAD7D3ED09BC"
+			tasks: [{
+				id: "2276C20C8F3F7350"
+				type: "item"
+				item: "libraryferret:netherite_coins_jtl"
+			}]
+		}
+		{
+			title: "Iron -> Gold Coin"
+			x: 4.0d
+			y: 0.0d
+			shape: "hexagon"
+			repeatable: true
+			id: "39B11FA5AAE516D8"
+			tasks: [{
+				id: "4F4FFFC189313222"
+				type: "item"
+				item: "libraryferret:iron_coins_jtl"
+				count: 100L
+			}]
+			rewards: [{
+				id: "2C7C986E6D6C7B00"
+				type: "item"
+				item: "libraryferret:gold_coins_jtl"
+			}]
+		}
+		{
+			title: "Gold -> Diamond Coin"
+			x: 4.0d
+			y: 1.0d
+			shape: "hexagon"
+			repeatable: true
+			id: "6818658A04F4EC32"
+			tasks: [{
+				id: "42ECD995ACE60202"
+				type: "item"
+				item: "libraryferret:gold_coins_jtl"
+				count: 50L
+			}]
+			rewards: [{
+				id: "0D317741D1AA6C37"
+				type: "item"
+				item: "libraryferret:diamond_coins_jtl"
+			}]
+		}
+		{
+			title: "Diamond -> Emerald Coin"
+			x: 4.0d
+			y: 2.0d
+			shape: "hexagon"
+			repeatable: true
+			id: "7D32AE77F09620C6"
+			tasks: [{
+				id: "7D3A97708BD1D9B5"
+				type: "item"
+				item: "libraryferret:diamond_coins_jtl"
+				count: 10L
+			}]
+			rewards: [{
+				id: "649943F01FC76AE3"
+				type: "item"
+				item: "libraryferret:emerald_coins_jtl"
+			}]
+		}
+		{
+			title: "Emerald -> Netherite Coin"
+			x: 4.0d
+			y: 3.0d
+			shape: "hexagon"
+			repeatable: true
+			id: "24B9D1D7595402C2"
+			tasks: [{
+				id: "0D6EF714BEC2FD5A"
+				type: "item"
+				item: "libraryferret:emerald_coins_jtl"
+				count: 10L
+			}]
+			rewards: [{
+				id: "531F1C3AC91610F7"
+				type: "item"
+				item: "libraryferret:netherite_coins_jtl"
+			}]
+		}
+	]
+}

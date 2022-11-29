@@ -1,0 +1,11 @@
+{
+    "id": "create_rot_internal",
+    "name": {
+      "text": "Internal Rotation Output"
+    },
+    "port": "mm:create_rotation",
+    "input": false,
+    "config": {
+      "stress": 1000000
+    }
+}

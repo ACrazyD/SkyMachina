@@ -1,0 +1,25 @@
+{
+  "duration": 20,
+  "structureId": "mmtest:zappy_fh",
+  "name": {
+    "text": "Shocky Cocky"
+  },
+  "inputs": [
+    {
+      "type": "mm:simple",
+      "ingredient": {
+        "type": "mm:energy",
+        "amount": 100000
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "mm:simple",
+      "ingredient": {
+        "type": "mm:energy",
+        "amount": 50000
+      }
+    }
+  ]
+}

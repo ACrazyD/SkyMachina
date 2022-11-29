@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "replacement": "minecraft:floating_islands",
+  "noise_override": true,
+  "dimension_override": true,
+  "noise_settings": {
+    "minY": 0,
+    "height": 256
+  },
+  "dimension_settings": {
+    "seaLevel": -60,
+    "bedrockFloorPosition": -10
+  }
+}

@@ -1,0 +1,41 @@
+
+[general]
+	#The alternative names of this material.
+	alternativeNames = []
+	#The byproducts of this material.
+	extras = []
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
+	#The module blacklist of this material.
+	moduleBlacklist = []
+	#Should items of this material have the enchanted glow.
+	hasEffect = false
+	#The model type of the material.
+	modelType = "crystal"
+	#The color of this material.
+	color = 12271944
+
+[create]
+	#The default byproduct material to output in Create's crushing.
+	byproduct = "minecraft:cobblestone"
+
+[exnihilosequentia]
+	#Should gravel sieve recipes be added.
+	sieveGravel = true
+	#Should crushed netherrack sieve recipes be added.
+	sieveCrushedNetherrack = false
+	#Should crushed end stone sieve recipes be added.
+	sieveCrushedEndstone = false
+	#The output chance of the sieve recipes added using an iron mesh.
+	sieveIronChance = 0.00800000037997961
+	#The output chance of the sieve recipes added using a diamond mesh.
+	sieveDiamondChance = 0.01600000075995922
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "#forge:cobblestone/normal"
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+

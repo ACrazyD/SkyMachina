@@ -1,0 +1,28 @@
+{
+	id: "31C7EA1341E39515"
+	group: "04B79D53D739947C"
+	order_index: 1
+	filename: "mikes_materials"
+	title: "Mikes Material's"
+	icon: "minecraft:iron_ore"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		disable_toast: true
+		x: -1.5d
+		y: -1.0d
+		can_repeat: true
+		id: "4539B7CE0FA3EE3E"
+		tasks: [{
+			id: "280AB8FE78AF56AC"
+			type: "item"
+			item: "libraryferret:iron_coins_jtl"
+			consume_items: true
+		}]
+		rewards: [{
+			id: "0235D133285C369F"
+			type: "item"
+			item: "minecraft:raw_iron"
+		}]
+	}]
+}

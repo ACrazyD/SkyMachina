@@ -1,0 +1,44 @@
+
+[Override]
+
+	[Override.CreateSifter]
+		#What the max durability of the CreateSifter string mesh should be.
+		#Range: > 0
+		StringMeshDurability = 64
+		StringMeshTakesDurability = true
+		#What the max durability of the CreateSifter andesite mesh should be.
+		#Range: > 0
+		AndesiteMeshDurability = 128
+		AndesiteMeshTakesDurability = true
+		#What the max durability of the CreateSifter zinc mesh should be.
+		#Range: > 0
+		ZincMeshDurability = 256
+		ZincMeshTakesDurability = true
+		#What the max durability of the CreateSifter brass mesh should be.
+		#Range: > 0
+		BrassMeshDurability = 512
+		BrassMeshTakesDurability = true
+		#Toggles whether meshes should also take durability damage in the sifter as it does in a hand
+		ShouldMeshesTakeDurabilityInSifter = true
+
+[CreateSifterAddons]
+	#What the max durability of the CreateSifter brass mesh should be.
+	#Range: > 0
+	BloodMeshDurability = 512
+	BloodMeshTakesDurability = true
+	#What the max durability of the CreateSifter brass mesh should be.
+	#Range: > 0
+	ManaMeshDurability = 512
+	ManaMeshTakesDurability = true
+	#What the max durability of the CreateSifter brass mesh should be.
+	#Range: > 0
+	SteelMeshDurability = 512
+	SteelMeshTakesDurability = true
+	#What the max durability of the CreateSifter brass mesh should be.
+	#Range: > 0
+	LeadMeshDurability = 512
+	LeadMeshTakesDurability = true
+	#The chance to take durability on meshes in the sifter
+	#Range: 0.0 ~ 1.0
+	DurabilityTakeChance = 0.25
+

@@ -1,0 +1,11 @@
+{
+	id: "2E5A5F930C7A894E"
+	group: "04B79D53D739947C"
+	order_index: 2
+	filename: "automagi_marketing"
+	title: "AutoMagi Marketing"
+	icon: "ars_nouveau:source_gem"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

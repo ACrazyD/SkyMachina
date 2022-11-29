@@ -1,0 +1,646 @@
+{
+    "oreConfig": [
+        {
+            "ore": "minecraft:coal_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_coal_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:iron_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_iron_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        
+        {
+            "ore": "minecraft:copper_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_copper_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        
+        {
+            "ore": "minecraft:gold_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_gold_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:redstone_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_redstone_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:emerald_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_emerald_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:lapis_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_lapis_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:diamond_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_diamond_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:nether_gold_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_nether_gold_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:nether_quartz_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "minecraft:deepslate_nether_quartz_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "create:zinc_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "create:deepslate_zinc_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "mekanism:osmium_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "mekanism:deepslate_osmium_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "mekanism:uranium_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "mekanism:deepslate_uranium_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "mekanism:fluorite_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "mekanism:deepslate_fluorite_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "bloodmagic:dungeon_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "mythicbotany:elementium_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "mythicbotany:dragonstone_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:apatite_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_apatite_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:cinnabar_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_cinnabar_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:niter_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_niter_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:sulfur_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_sulfur_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:tin_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_tin_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:lead_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_lead_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:silver_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_silver_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:nickel_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_nickel_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:ruby_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_ruby_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:sapphire_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "thermal:deepslate_sapphire_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "tconstruct:cobalt_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "ae2:quartz_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "ae2:deepslate_quartz_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "occultism:iesnium_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "byg:ametrine_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "byg:budding_ametrine_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "byg:pendorite_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "byg:emeraldite_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "byg:anthracite_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "byg:blue_nether_quartz_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "byg:brimstone_nether_quartz_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "byg:lignite_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        },
+        {
+            "ore": "byg:cryptic_redstone_ore",
+            "fillers": [],
+            "minY": -1,
+            "maxY": -1,
+            "maxVeinSize": -1,
+            "spawnRate": -1.0,
+            "discardChanceOnAirExposure": -1.0,
+            "replace": true
+        }
+    ]
+}

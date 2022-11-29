@@ -1,0 +1,20 @@
+{
+  "duration": 20,
+  "structureId": "mmtest:primitive_fh",
+  "name": {
+    "text": "Redneck CobbleGen"
+  },
+  "inputs": [
+  ],
+  "outputs": [
+    {
+      "type": "mm:simple",
+      "chance": 1,
+      "ingredient": {
+        "type": "mm:item",
+        "item": "minecraft:cobblestone",
+        "count": 1
+      }
+    }
+  ]
+}

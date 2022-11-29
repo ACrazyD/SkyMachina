@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/mek_gas_input_port"
+    }
+  }
+}

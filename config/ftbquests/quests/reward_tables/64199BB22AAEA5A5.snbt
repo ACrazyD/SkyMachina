@@ -1,0 +1,11 @@
+{
+	id: "64199BB22AAEA5A5"
+	order_index: 0
+	title: "choose"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ icon: "simpleplanes:parachute", item: "simpleplanes:parachute" }
+		{ icon: "paraglider:paraglider", item: "paraglider:paraglider" }
+	]
+}
