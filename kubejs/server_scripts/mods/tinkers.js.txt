@@ -35,7 +35,7 @@ onEvent("recipes", event => {
         if (alloytemp <= 1000) {
             if (r.json.get('inputs').getAsJsonArray().size()>2){
                 console.info("MONKEY - INPUT FLUID 3:")
-                console.info( r.json.get('inputs').getAsJsonArray().get(2).get('tag').getAsString()) 
+                console.info( r.json.get('inputs').getAsJsonArray().get(2).get('tag').getAsString())
                 
                 var inputfluid_3 = r.json.get('inputs').getAsJsonArray().get(2).get('tag').getAsString().replace("forge","tconstruct")
                 var inputfluid_amount_3 = r.json.get('inputs').getAsJsonArray().get(2).get('amount').getAsInt() 
