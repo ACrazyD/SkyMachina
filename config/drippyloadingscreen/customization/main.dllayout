@@ -3,9 +3,7 @@ type = hud
 customization-meta {
   randomgroup = 1
   keepaspectratio = false
-  autoscale_baseheight = 1057
   renderorder = foreground
-  autoscale_basewidth = 1920
   randommode = false
   randomonlyfirsttime = false
   backgroundcolor = 1b1c21
