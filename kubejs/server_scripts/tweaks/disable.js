@@ -26,6 +26,7 @@ onEvent('recipes', e => {
     e.remove({mod: 'mekanismgenerators'})
     e.remove({mod: 'mekanismadditions'})
     //Other
+    e.remove({mod: 'ironjetpacks'})
     e.remove({mod: 'thermal'})
     e.remove({mod: 'infinitesource'})
     e.remove({mod: 'occultism'})
