@@ -22,23 +22,32 @@
 		ShouldMeshesTakeDurabilityInSifter = true
 
 [CreateSifterAddons]
-	#What the max durability of the CreateSifter brass mesh should be.
+	#What the max durability of the CreateSifter blood mesh should be.
 	#Range: > 0
 	BloodMeshDurability = 512
 	BloodMeshTakesDurability = true
-	#What the max durability of the CreateSifter brass mesh should be.
+	#What the max durability of the CreateSifter mana mesh should be.
 	#Range: > 0
 	ManaMeshDurability = 512
 	ManaMeshTakesDurability = true
-	#What the max durability of the CreateSifter brass mesh should be.
+	#What the max durability of the CreateSifter steel mesh should be.
 	#Range: > 0
 	SteelMeshDurability = 512
 	SteelMeshTakesDurability = true
-	#What the max durability of the CreateSifter brass mesh should be.
+	#What the max durability of the CreateSifter lead mesh should be.
 	#Range: > 0
 	LeadMeshDurability = 512
 	LeadMeshTakesDurability = true
 	#The chance to take durability on meshes in the sifter
 	#Range: 0.0 ~ 1.0
 	DurabilityTakeChance = 0.25
+	#What the max durability of the CreateSifter omni mesh should be.
+	#Range: > 0
+	OmniMeshDurability = 512
+	OmniMeshTakesDurability = true
+
+[Tweaks]
+	#The max length a vine can grow down
+	#Range: 0 ~ 384
+	MaxVineLength = 16
 
