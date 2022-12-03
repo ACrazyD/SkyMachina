@@ -1,0 +1,257 @@
+
+[mobaspects]
+	#Maximum aspects a mob can have (-1 = unlimited)
+	maxAspects = -1
+	#XP multiplier per aspect count
+	#Range: 1.0 ~ 1.7976931348623157E308
+	xpMultiplier = 1.5
+	#Base chance for a mob to have at least 1 aspect ( e.g 0.5 = 50% )
+	#Range: 0.0 ~ 1.0
+	baseChance = 0.5
+	#The chance for a mob to have next aspect ( e.g chance of having 2 aspects = 0.5 base * 0.5 next  = 0.25 (25%)  )
+	#Range: 0.0 ~ 1.0
+	nextChance = 0.5
+
+	[mobaspects.BERRY]
+		#Is this aspect enabled
+		enabled = true
+		#Chance that will plant a berry bush under the target hit
+		#Range: 0.0 ~ 1.0
+		berryPlantOnHitChance = 0.2
+		#Can drop berry when receive hit
+		berryCanPlantOnDeath = true
+
+	[mobaspects.BERSERK]
+		#Is this aspect enabled
+		enabled = true
+		#Damage multiplier increase per percentage health loss
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"damage multiplier" = 1.0
+		#Speed multiplier increase per percentage health loss
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"speed multiplier" = 1.0
+
+	[mobaspects.CREEPER]
+		#Is this aspect enabled
+		enabled = true
+		#Explosion radius
+		#Range: 0.0 ~ 1.7976931348623157E308
+		explosionRadius = 4.0
+		#Explosion destroys blocks?
+		explosionDestructive = false
+
+	[mobaspects.DAMAGE_TRANSFER]
+		#Is this aspect enabled
+		enabled = true
+		#Radius of damage transfer
+		#Range: 0.1 ~ 128.0
+		radius = 3.0
+		#Percentage of damage to be transferred
+		#Range: 0.01 ~ 1.0
+		transferPercent = 0.5
+
+	[mobaspects.DAMAGING_EFFECTS]
+		#Is this aspect enabled
+		enabled = true
+		#Duration of effect (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 1
+		durationTicks = 100
+		#Chance of applying effect
+		#Range: 0.01 ~ 1.0
+		chance = 0.5
+
+	[mobaspects.DEBUFF]
+		#Is this aspect enabled
+		enabled = true
+		#Duration of effect (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 1
+		durationTicks = 100
+		#Chance of applying effect
+		#Range: 0.01 ~ 1.0
+		chance = 0.5
+
+	[mobaspects.ENDER_MAN]
+		#Is this aspect enabled
+		enabled = true
+
+	[mobaspects.EXTRA_LIFE]
+		#Is this aspect enabled
+		enabled = true
+		#Percent of heal when used extra life
+		#Range: 0.01 ~ 1.0
+		healPercent = 0.5
+
+	[mobaspects.GHAST_BUDDY]
+		#Is this aspect enabled
+		enabled = true
+		#Intervals between firing (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 10
+		ghastBuddyFireCooldown = 120
+
+	[mobaspects.GLASS_CANON]
+		#Is this aspect enabled
+		enabled = true
+
+	[mobaspects.HEAVY]
+		#Is this aspect enabled
+		enabled = true
+		#Speed multiplier
+		#Range: 0.0 ~ 1.0
+		speedMultiplier = 0.5
+		#Health multiplier
+		#Range: 1.0 ~ 100.0
+		healthMultiplier = 2.0
+		#Knockback addition
+		#Range: 0.0 ~ 5.0
+		knockbackAddition = 0.3
+		#Knockback resistance addition
+		#Range: 0.0 ~ 1.0
+		knockbackResistanceAddition = 0.2
+
+	[mobaspects.LEECH]
+		#Is this aspect enabled
+		enabled = true
+		#Cooldown of leech ability (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 1
+		leechCooldown = 100
+		#Radius of leech
+		#Range: 0.1 ~ 128.0
+		leechRadius = 5.0
+		#Percentage of health restoration when used leech
+		#Range: 0.01 ~ 1.0
+		leechHealPercent = 0.1
+
+	[mobaspects.OVERLOAD]
+		#Is this aspect enabled
+		enabled = true
+		#Number of hits to take before triggering explosion
+		#Range: 1 ~ 20
+		hitsToExplode = 4
+		#Ticks take to reduce explosion hit counter ( normally 20 ticks = 1 second) 
+		#Range: 10 ~ 20000
+		ticksToReduceHitCount = 40
+		#Ticks required before explosion ( normally 20 ticks = 1 second) 
+		#Range: 10 ~ 20000
+		ticksBeforeExplosion = 100
+		#Ticks required before explosion ( normally 20 ticks = 1 second) 
+		#Range: 0.01 ~ 128.0
+		explosionRadius = 5.0
+		#Increase hit counter from player damages only?
+		countHitsFromPlayerOnly = true
+
+	[mobaspects.PARASITE]
+		#Is this aspect enabled
+		enabled = true
+		#Ticks required to attach to new host (in ticks , normally 20 ticks = 1 second) 
+		#Range: 10 ~ 300
+		ticksPerTakeDamage = 60
+
+	[mobaspects.RIDER]
+		#Is this aspect enabled
+		enabled = true
+
+	[mobaspects.SIREN]
+		#Is this aspect enabled
+		enabled = true
+		#Chance that will lure mobs when took hit
+		#Range: 0.01 ~ 1.0
+		sirenUseChance = 0.5
+		#Amount of mobs that will be attracted
+		#Range: 1 ~ 10
+		sirenLureCount = 2
+		#Range of mobs that will be attracted
+		#Range: 16.0 ~ 64.0
+		sirenLureRadius = 32.0
+
+	[mobaspects.SHIELDING]
+		#Is this aspect enabled
+		enabled = true
+		#Time to respawn the shield (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 10
+		cooldown = 160
+		#Number of hits to destroy the shield
+		#Range: 1 ~ 1000
+		maxHits = 3
+		#Should axe instant destroy the shield?
+		instantDestroyByAxe = true
+		#Increase hit counter from player damages only?
+		countHitsFromPlayerOnly = true
+
+	[mobaspects.STICKY_BOMB]
+		#Is this aspect enabled
+		enabled = true
+		#Explosion radius
+		#Range: 0.0 ~ 1.7976931348623157E308
+		explosionRadius = 4.0
+		#Explosion destroys blocks?
+		explosionDestructive = false
+		#Chance of applying sticky bomb
+		#Range: 0.01 ~ 1.0
+		chance = 0.3
+
+	[mobaspects.STOIC]
+		#Is this aspect enabled
+		enabled = true
+		#Intervals between taking damage from pool (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 1
+		ticksPerTakeDamage = 20
+		#Maximum damage can take from the pool
+		#Range: 0.5 ~ 100.0
+		maxDamageCanTake = 8.0
+
+	[mobaspects.SWAP]
+		#Is this aspect enabled
+		enabled = true
+		#Cooldown of swap ability (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 1
+		cooldown = 100
+		#Radius of swap
+		#Range: 0.1 ~ 128.0
+		radius = 8.0
+
+	[mobaspects.SWIFT]
+		#Is this aspect enabled
+		enabled = true
+		#Speed multiplier
+		#Range: 1.0 ~ 100.0
+		speedMultiplier = 1.5
+		#Attack speed multiplier
+		#Range: 1.0 ~ 100.0
+		attackSpeedMultiplier = 1.3
+
+	[mobaspects.VAMPIRE]
+		#Is this aspect enabled
+		enabled = true
+		#Percentage of health to heal when hitting entities
+		#Range: 0.01 ~ 1.0
+		healPercentPerHit = 0.1
+
+	[mobaspects.VENGEANCE]
+		#Is this aspect enabled
+		enabled = true
+		#Max number of mobs that will be teleported
+		#Range: 1 ~ 32
+		maxTeleportCount = 4
+		#Radius of teleportation
+		#Range: 0.1 ~ 128.0
+		radius = 25.0
+
+	[mobaspects.UNDYING_AURA]
+		#Is this aspect enabled
+		enabled = true
+		#Intervals between activation (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 20
+		ghastBuddyFireCooldown = 600
+		#How long the aura exists per activation (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 10
+		undyingAuraDuration = 120
+		#Force to activate the aura once when falling below the specified health percentage
+		#Range: 0.01 ~ 1.0
+		undyingAuraForceUseBelowHealth = 0.5
+		#Radius of the aura
+		#Range: 1.0 ~ 16.0
+		undyingAuraRange = 5.0
+		#Duration of the 'Undying' effect (in ticks , normally 20 ticks = 1 second) 
+		#Range: > 10
+		undyingAuraEffectDuration = 20
+

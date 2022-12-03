@@ -1,0 +1,43 @@
+
+[KubeJSDocumentation]
+	#Enable/Disable KubeJS Documentation Homepage
+	#REQUIRED_AUTH is deprecated and will be removed in a future version
+	#Allowed Values: ENABLED, REQUIRES_AUTH, DISABLED
+	documentationHomePage = "ENABLED"
+	#Enable/Disable All KubeJS Class Pages
+	#REQUIRED_AUTH is deprecated and will be removed in a future version
+	#Allowed Values: ENABLED, REQUIRES_AUTH, DISABLED
+	classPage = "ENABLED"
+
+	[KubeJSDocumentation.classPageSpecifics]
+		#Should every ClassPage include inherited Constructors as well defined ones?
+		includeInheritedConstructors = false
+		#Should every ClassPage include inherited Fields as well defined ones?
+		includeInheritedFields = true
+		#Should every ClassPage include inherited Methods as well defined ones?
+		includeInheritedMethods = true
+		#Should every ClassPage include inherited Classes as well defined ones?
+		includeInheritedClasses = false
+
+[customPages]
+	#Enable customPages event for KJS?
+	customPages = false
+
+[experimental]
+
+	[experimental."Reflection Handler"]
+		#Enable Reflection Handler?
+		#The reflection handler tries to find all classes that extend EventJS and Forge's Event and adds them to the KubeJS homepage.
+		#(Experimental Feature that can crash JVM in some instances and not produce a crash report)
+		reflectionHandler = false
+		#List of blacklisted packages to load classes from for the reflection handler.
+		#If you have AE2 installed and experiencing crashing, try adding "appeng".
+		blacklistedPackages = ["mixin", "RecipeManager", "rhinofile", "rhinodata", "appeng", "integration", "compat", "mna.entities", "mclib.math", "recipe.manager", "recipe.handler"]
+
+	[experimental."Print All Classes for Debugging"]
+		#Forces the reflection handler to print out the names of all classes as it's loading them.
+		#This will spam the log file so only enable this when you are experiencing crashing issues.
+		#The latest log should contain the last class that was attempted to be loaded before the crash.
+		#The package should be added to the blacklisted packages config.
+		printAllClasses = false
+

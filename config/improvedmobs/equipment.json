@@ -1,0 +1,1140 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "ae2:certus_quartz_axe": [
+      1087,
+      -0.696
+    ],
+    "ae2:certus_quartz_sword": [
+      1225,
+      -1.8
+    ],
+    "ae2:fluix_axe": [
+      915,
+      0.68
+    ],
+    "ae2:fluix_sword": [
+      1058,
+      -0.464
+    ],
+    "ae2:nether_quartz_axe": [
+      1087,
+      -0.696
+    ],
+    "ae2:nether_quartz_sword": [
+      1225,
+      -1.8
+    ],
+    "alexsmobs:skelewag_sword": [
+      1226,
+      -1.808
+    ],
+    "ars_nouveau:enchanters_sword": [
+      602,
+      3.184
+    ],
+    "ars_nouveau:spell_bow": [
+      1300,
+      0.0
+    ],
+    "bloodmagic:soulaxe": [
+      1294,
+      -2.352
+    ],
+    "bloodmagic:soulsword": [
+      1006,
+      -0.048
+    ],
+    "botania:crystal_bow": [
+      1050,
+      0.0
+    ],
+    "botania:elementium_axe": [
+      946,
+      0.432
+    ],
+    "botania:elementium_sword": [
+      1084,
+      -0.672
+    ],
+    "botania:ender_dagger": [
+      1279,
+      -2.232
+    ],
+    "botania:livingwood_bow": [
+      1050,
+      0.0
+    ],
+    "botania:manasteel_axe": [
+      1072,
+      -0.576
+    ],
+    "botania:manasteel_sword": [
+      1210,
+      -1.68
+    ],
+    "botania:star_sword": [
+      568,
+      3.456
+    ],
+    "botania:terra_axe": [
+      418,
+      4.656
+    ],
+    "botania:terra_sword": [
+      568,
+      3.456
+    ],
+    "botania:thunder_sword": [
+      568,
+      3.456
+    ],
+    "byg:pendorite_axe": [
+      300,
+      5.6
+    ],
+    "byg:pendorite_battleaxe": [
+      238,
+      6.096
+    ],
+    "byg:pendorite_sword": [
+      412,
+      4.704
+    ],
+    "create_things_and_misc:brass_knife": [
+      1308,
+      -2.464
+    ],
+    "create_things_and_misc:copper_knife": [
+      1342,
+      -2.736
+    ],
+    "create_things_and_misc:zinc_knife": [
+      1342,
+      -2.736
+    ],
+    "expcaves:butcher_knife": [
+      1183,
+      -1.464
+    ],
+    "expcaves:chef_knife": [
+      1225,
+      -1.8
+    ],
+    "expcaves:gourmet_fork": [
+      1263,
+      -2.104
+    ],
+    "expcaves:gourmet_spoon": [
+      1297,
+      -2.376
+    ],
+    "expcaves:iron_dagger": [
+      1263,
+      -2.104
+    ],
+    "expcaves:rusty_pickaxe": [
+      1334,
+      -2.672
+    ],
+    "expcaves:rusty_sword": [
+      1262,
+      -2.096
+    ],
+    "expcaves:wooden_cane": [
+      1354,
+      -2.832
+    ],
+    "floating_islands:lights_bane": [
+      571,
+      3.432
+    ],
+    "floating_islands:starfury": [
+      692,
+      2.464
+    ],
+    "mekanism:electric_bow": [
+      1300,
+      0.0
+    ],
+    "mekanismtools:bronze_axe": [
+      995,
+      0.04
+    ],
+    "mekanismtools:bronze_sword": [
+      1187,
+      -1.496
+    ],
+    "mekanismtools:lapis_lazuli_axe": [
+      1261,
+      -2.088
+    ],
+    "mekanismtools:lapis_lazuli_sword": [
+      1299,
+      -2.392
+    ],
+    "mekanismtools:osmium_axe": [
+      614,
+      3.088
+    ],
+    "mekanismtools:osmium_sword": [
+      904,
+      0.768
+    ],
+    "mekanismtools:refined_glowstone_axe": [
+      1046,
+      -0.368
+    ],
+    "mekanismtools:refined_glowstone_sword": [
+      1184,
+      -1.472
+    ],
+    "mekanismtools:refined_obsidian_axe": [
+      1,
+      12.224
+    ],
+    "mekanismtools:refined_obsidian_sword": [
+      1,
+      9.92
+    ],
+    "mekanismtools:steel_axe": [
+      900,
+      0.8
+    ],
+    "mekanismtools:steel_sword": [
+      1108,
+      -0.864
+    ],
+    "minecraft:bow": [
+      1108,
+      0.0
+    ],
+    "minecraft:crossbow": [
+      1000,
+      0.0
+    ],
+    "minecraft:diamond_axe": [
+      693,
+      2.456
+    ],
+    "minecraft:diamond_sword": [
+      789,
+      1.688
+    ],
+    "minecraft:enchanted_book": [
+      1100,
+      0.0
+    ],
+    "minecraft:golden_axe": [
+      1248,
+      -1.984
+    ],
+    "minecraft:golden_sword": [
+      1362,
+      -2.896
+    ],
+    "minecraft:iron_axe": [
+      1087,
+      -0.696
+    ],
+    "minecraft:iron_sword": [
+      1225,
+      -1.8
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      0.0
+    ],
+    "minecraft:netherite_axe": [
+      498,
+      4.016
+    ],
+    "minecraft:netherite_sword": [
+      602,
+      3.184
+    ],
+    "minecraft:snowball": [
+      1400,
+      0.0
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      1050,
+      0.0
+    ],
+    "minecraft:stone_axe": [
+      1122,
+      -0.976
+    ],
+    "minecraft:stone_sword": [
+      1298,
+      -2.384
+    ],
+    "minecraft:tnt": [
+      800,
+      0.0
+    ],
+    "minecraft:trident": [
+      900,
+      0.0
+    ],
+    "minecraft:wooden_axe": [
+      1240,
+      -1.92
+    ],
+    "minecraft:wooden_sword": [
+      1354,
+      -2.832
+    ],
+    "mythicbotany:alfsteel_axe": [
+      1,
+      10.176
+    ],
+    "mythicbotany:alfsteel_sword": [
+      1,
+      11.664
+    ],
+    "occultism:butcher_knife": [
+      1225,
+      -1.8
+    ],
+    "rstm:scrap_metal_sword": [
+      1278,
+      -2.224
+    ],
+    "rstm:titanium_axe": [
+      892,
+      0.864
+    ],
+    "rstm:titanium_sword": [
+      988,
+      0.096
+    ],
+    "tinkersurvival:crude_hatchet": [
+      1318,
+      -2.544
+    ],
+    "tinkersurvival:crude_knife": [
+      1409,
+      -3.272
+    ]
+  },
+  "OFFHAND": {
+    "ars_nouveau:enchanters_shield": [
+      1350,
+      0.0
+    ],
+    "mekanismtools:bronze_shield": [
+      1350,
+      0.0
+    ],
+    "mekanismtools:lapis_lazuli_shield": [
+      1350,
+      0.0
+    ],
+    "mekanismtools:osmium_shield": [
+      1350,
+      0.0
+    ],
+    "mekanismtools:refined_glowstone_shield": [
+      1350,
+      0.0
+    ],
+    "mekanismtools:refined_obsidian_shield": [
+      1350,
+      0.0
+    ],
+    "mekanismtools:steel_shield": [
+      1350,
+      0.0
+    ],
+    "minecraft:ender_pearl": [
+      1100,
+      0.0
+    ],
+    "minecraft:flint_and_steel": [
+      1200,
+      0.0
+    ],
+    "minecraft:lava_bucket": [
+      900,
+      0.0
+    ],
+    "minecraft:shield": [
+      1350,
+      0.0
+    ]
+  },
+  "FEET": {
+    "alexsmobs:flying_fish_boots": [
+      1342,
+      -2.736
+    ],
+    "alexsmobs:roadrunner_boots": [
+      903,
+      0.776
+    ],
+    "ars_nouveau:apprentice_boots": [
+      607,
+      3.144
+    ],
+    "ars_nouveau:archmage_boots": [
+      1,
+      7.992
+    ],
+    "ars_nouveau:novice_boots": [
+      807,
+      1.544
+    ],
+    "biomemakeover:cladded_boots": [
+      944,
+      0.448
+    ],
+    "bloodmagic:livingboots": [
+      529,
+      3.768
+    ],
+    "botania:elementium_boots": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_boots": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_boots": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_boots": [
+      1,
+      8.312
+    ],
+    "byg:ametrine_boots": [
+      1,
+      12.312
+    ],
+    "canes_wonderful_spiders:hardshell_boots": [
+      562,
+      3.504
+    ],
+    "canes_wonderful_spiders:jumping_boots_boots": [
+      925,
+      0.6
+    ],
+    "create:diving_boots": [
+      1141,
+      -1.128
+    ],
+    "create_things_and_misc:sticky_boots_boots": [
+      340,
+      5.28
+    ],
+    "mekanism:free_runners": [
+      1500,
+      -4.0
+    ],
+    "mekanism:free_runners_armored": [
+      1410,
+      -3.28
+    ],
+    "mekanism:hazmat_boots": [
+      1500,
+      -4.0
+    ],
+    "mekanism:mekasuit_boots": [
+      98,
+      7.216
+    ],
+    "mekanismtools:bronze_boots": [
+      455,
+      4.36
+    ],
+    "mekanismtools:lapis_lazuli_boots": [
+      1145,
+      -1.16
+    ],
+    "mekanismtools:osmium_boots": [
+      1,
+      8.632
+    ],
+    "mekanismtools:refined_glowstone_boots": [
+      281,
+      5.752
+    ],
+    "mekanismtools:refined_obsidian_boots": [
+      1,
+      24.896
+    ],
+    "mekanismtools:steel_boots": [
+      201,
+      6.392
+    ],
+    "minecraft:chainmail_boots": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_boots": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_boots": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_boots": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_boots": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_boots": [
+      361,
+      5.112
+    ],
+    "mythicbotany:alfsteel_boots": [
+      1,
+      8.312
+    ],
+    "pneumaticcraft:compressed_iron_boots": [
+      628,
+      2.976
+    ],
+    "pneumaticcraft:pneumatic_boots": [
+      628,
+      2.976
+    ],
+    "rstm:scrap_metal_boots": [
+      921,
+      0.632
+    ],
+    "rstm:titanium_boots": [
+      492,
+      4.064
+    ],
+    "tconstruct:plate_boots": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_boots": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_boots": [
+      1498,
+      -3.984
+    ],
+    "thermal:beekeeper_boots": [
+      1313,
+      -2.504
+    ],
+    "thermal:diving_boots": [
+      976,
+      0.192
+    ],
+    "thermal:hazmat_boots": [
+      1055,
+      -0.44
+    ]
+  },
+  "LEGS": {
+    "alexsmobs:centipede_leggings": [
+      1,
+      9.56
+    ],
+    "alexsmobs:emu_leggings": [
+      733,
+      2.136
+    ],
+    "ars_nouveau:apprentice_leggings": [
+      607,
+      3.144
+    ],
+    "ars_nouveau:archmage_leggings": [
+      1,
+      7.992
+    ],
+    "ars_nouveau:novice_leggings": [
+      807,
+      1.544
+    ],
+    "biomemakeover:cladded_leggings": [
+      944,
+      0.448
+    ],
+    "bloodmagic:livingleggings": [
+      529,
+      3.768
+    ],
+    "botania:elementium_leggings": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_leggings": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_leggings": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_leggings": [
+      1,
+      8.312
+    ],
+    "byg:ametrine_leggings": [
+      1,
+      12.312
+    ],
+    "mekanism:hazmat_pants": [
+      1500,
+      -4.0
+    ],
+    "mekanism:mekasuit_pants": [
+      98,
+      7.216
+    ],
+    "mekanismtools:bronze_leggings": [
+      455,
+      4.36
+    ],
+    "mekanismtools:lapis_lazuli_leggings": [
+      1145,
+      -1.16
+    ],
+    "mekanismtools:osmium_leggings": [
+      1,
+      8.632
+    ],
+    "mekanismtools:refined_glowstone_leggings": [
+      281,
+      5.752
+    ],
+    "mekanismtools:refined_obsidian_leggings": [
+      1,
+      24.896
+    ],
+    "mekanismtools:steel_leggings": [
+      201,
+      6.392
+    ],
+    "minecraft:chainmail_leggings": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_leggings": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_leggings": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_leggings": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_leggings": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_leggings": [
+      361,
+      5.112
+    ],
+    "mythicbotany:alfsteel_leggings": [
+      1,
+      8.312
+    ],
+    "pneumaticcraft:compressed_iron_leggings": [
+      628,
+      2.976
+    ],
+    "pneumaticcraft:pneumatic_leggings": [
+      628,
+      2.976
+    ],
+    "rstm:scrap_metal_leggings": [
+      921,
+      0.632
+    ],
+    "rstm:titanium_leggings": [
+      492,
+      4.064
+    ],
+    "tconstruct:plate_leggings": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_leggings": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_leggings": [
+      1498,
+      -3.984
+    ],
+    "thermal:beekeeper_leggings": [
+      1313,
+      -2.504
+    ],
+    "thermal:diving_leggings": [
+      976,
+      0.192
+    ],
+    "thermal:hazmat_leggings": [
+      1055,
+      -0.44
+    ]
+  },
+  "CHEST": {
+    "alexsmobs:crocodile_chestplate": [
+      478,
+      4.176
+    ],
+    "alexsmobs:rocky_chestplate": [
+      526,
+      3.792
+    ],
+    "alexsmobs:tarantula_hawk_elytra": [
+      897,
+      0.824
+    ],
+    "ars_nouveau:apprentice_robes": [
+      607,
+      3.144
+    ],
+    "ars_nouveau:archmage_robes": [
+      1,
+      7.992
+    ],
+    "ars_nouveau:novice_robes": [
+      807,
+      1.544
+    ],
+    "biomemakeover:cladded_chestplate": [
+      944,
+      0.448
+    ],
+    "bloodmagic:livingplate": [
+      529,
+      3.768
+    ],
+    "botania:elementium_chestplate": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_chestplate": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_chestplate": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_chestplate": [
+      1,
+      8.312
+    ],
+    "byg:ametrine_chestplate": [
+      1,
+      12.312
+    ],
+    "create:copper_backtank": [
+      1141,
+      -1.128
+    ],
+    "ironjetpacks:jetpack": [
+      1500,
+      -4.0
+    ],
+    "mekanism:hazmat_gown": [
+      1500,
+      -4.0
+    ],
+    "mekanism:jetpack": [
+      1500,
+      -4.0
+    ],
+    "mekanism:jetpack_armored": [
+      1236,
+      -1.888
+    ],
+    "mekanism:mekasuit_bodyarmor": [
+      98,
+      7.216
+    ],
+    "mekanism:scuba_tank": [
+      1500,
+      -4.0
+    ],
+    "mekanismtools:bronze_chestplate": [
+      455,
+      4.36
+    ],
+    "mekanismtools:lapis_lazuli_chestplate": [
+      1145,
+      -1.16
+    ],
+    "mekanismtools:osmium_chestplate": [
+      1,
+      8.632
+    ],
+    "mekanismtools:refined_glowstone_chestplate": [
+      281,
+      5.752
+    ],
+    "mekanismtools:refined_obsidian_chestplate": [
+      1,
+      24.896
+    ],
+    "mekanismtools:steel_chestplate": [
+      201,
+      6.392
+    ],
+    "minecraft:chainmail_chestplate": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_chestplate": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_chestplate": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_chestplate": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_chestplate": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_chestplate": [
+      361,
+      5.112
+    ],
+    "mythicbotany:alfsteel_chestplate": [
+      1,
+      8.312
+    ],
+    "pneumaticcraft:compressed_iron_chestplate": [
+      628,
+      2.976
+    ],
+    "pneumaticcraft:pneumatic_chestplate": [
+      628,
+      2.976
+    ],
+    "quark:backpack": [
+      1356,
+      -2.848
+    ],
+    "rstm:scrap_metal_chestplate": [
+      921,
+      0.632
+    ],
+    "rstm:titanium_chestplate": [
+      492,
+      4.064
+    ],
+    "tconstruct:plate_chestplate": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_chestplate": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_chestplate": [
+      1498,
+      -3.984
+    ],
+    "thermal:beekeeper_chestplate": [
+      1313,
+      -2.504
+    ],
+    "thermal:diving_chestplate": [
+      976,
+      0.192
+    ],
+    "thermal:hazmat_chestplate": [
+      1055,
+      -0.44
+    ]
+  },
+  "HEAD": {
+    "alexsmobs:fedora": [
+      1186,
+      -1.488
+    ],
+    "alexsmobs:frontier_cap": [
+      840,
+      1.28
+    ],
+    "alexsmobs:froststalker_helmet": [
+      880,
+      0.96
+    ],
+    "alexsmobs:moose_headgear": [
+      887,
+      0.904
+    ],
+    "alexsmobs:novelty_hat": [
+      1189,
+      -1.512
+    ],
+    "alexsmobs:sombrero": [
+      1137,
+      -1.096
+    ],
+    "alexsmobs:spiked_turtle_shell": [
+      673,
+      2.616
+    ],
+    "ars_nouveau:apprentice_hood": [
+      607,
+      3.144
+    ],
+    "ars_nouveau:archmage_hood": [
+      1,
+      7.992
+    ],
+    "ars_nouveau:novice_hood": [
+      807,
+      1.544
+    ],
+    "biomemakeover:cladded_helmet": [
+      944,
+      0.448
+    ],
+    "biomemakeover:cowboy_hat": [
+      1074,
+      -0.592
+    ],
+    "biomemakeover:witch_hat": [
+      1074,
+      -0.592
+    ],
+    "bloodmagic:livinghelmet": [
+      529,
+      3.768
+    ],
+    "botania:elementium_helmet": [
+      704,
+      2.368
+    ],
+    "botania:manasteel_helmet": [
+      729,
+      2.168
+    ],
+    "botania:manaweave_helmet": [
+      1331,
+      -2.648
+    ],
+    "botania:terrasteel_helmet": [
+      1,
+      8.312
+    ],
+    "byg:ametrine_helmet": [
+      1,
+      12.312
+    ],
+    "create:diving_helmet": [
+      1141,
+      -1.128
+    ],
+    "mekanism:hazmat_mask": [
+      1500,
+      -4.0
+    ],
+    "mekanism:mekasuit_helmet": [
+      98,
+      7.216
+    ],
+    "mekanism:scuba_mask": [
+      1500,
+      -4.0
+    ],
+    "mekanismtools:bronze_helmet": [
+      455,
+      4.36
+    ],
+    "mekanismtools:lapis_lazuli_helmet": [
+      1145,
+      -1.16
+    ],
+    "mekanismtools:osmium_helmet": [
+      1,
+      8.632
+    ],
+    "mekanismtools:refined_glowstone_helmet": [
+      281,
+      5.752
+    ],
+    "mekanismtools:refined_obsidian_helmet": [
+      1,
+      24.896
+    ],
+    "mekanismtools:steel_helmet": [
+      201,
+      6.392
+    ],
+    "minecraft:chainmail_helmet": [
+      1098,
+      -0.784
+    ],
+    "minecraft:diamond_helmet": [
+      444,
+      4.448
+    ],
+    "minecraft:golden_helmet": [
+      1201,
+      -1.608
+    ],
+    "minecraft:iron_helmet": [
+      954,
+      0.368
+    ],
+    "minecraft:leather_helmet": [
+      1356,
+      -2.848
+    ],
+    "minecraft:netherite_helmet": [
+      361,
+      5.112
+    ],
+    "minecraft:shulker_shell": [
+      1328,
+      -2.624
+    ],
+    "minecraft:turtle_helmet": [
+      865,
+      1.08
+    ],
+    "mythicbotany:alfsteel_helmet": [
+      1,
+      8.312
+    ],
+    "occultism:otherworld_goggles": [
+      954,
+      0.368
+    ],
+    "overweight_farming:straw_hat": [
+      1455,
+      -3.64
+    ],
+    "pneumaticcraft:compressed_iron_helmet": [
+      628,
+      2.976
+    ],
+    "pneumaticcraft:pneumatic_helmet": [
+      628,
+      2.976
+    ],
+    "quark:forgotten_hat": [
+      1356,
+      -2.848
+    ],
+    "railways:black_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:blue_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:brown_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:cyan_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:gray_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:green_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:light_blue_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:light_gray_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:lime_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:magenta_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:orange_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:pink_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:purple_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:red_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:white_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "railways:yellow_conductor_cap": [
+      1500,
+      -4.0
+    ],
+    "rstm:titanium_helmet": [
+      492,
+      4.064
+    ],
+    "tconstruct:plate_helmet": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:slime_helmet": [
+      1498,
+      -3.984
+    ],
+    "tconstruct:travelers_helmet": [
+      1498,
+      -3.984
+    ],
+    "thermal:beekeeper_helmet": [
+      1313,
+      -2.504
+    ],
+    "thermal:diving_helmet": [
+      976,
+      0.192
+    ],
+    "thermal:hazmat_helmet": [
+      1055,
+      -0.44
+    ]
+  }
+}
