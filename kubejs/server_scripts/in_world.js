@@ -2,7 +2,7 @@
 
 onEvent('block.right_click', e => {
     //player.give("minecraft:andesite")
-    function inWorldCrafting(item, hi, output, chance) {
+    function inWorldCrafting(item, hi, output, chance, damage) {
         if (e.hand != MAIN_HAND) {
             if (e.item.id === item && e.block.id === hi) {
                 e.player.swingArm(Hand.OFF_HAND)
