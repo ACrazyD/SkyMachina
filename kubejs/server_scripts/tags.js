@@ -16,9 +16,14 @@ onEvent('item.tags', e => {
 })
 
 onEvent('block.tags', e => {
-	e.add('tinkersurvival:always_breakable', 'supplementaries:stick')
 	
+	//TinkersSurvival Fibers Fixing
 	e.add('tinkersurvival:fiber_plants', VJ('beach_grass'))
 	e.add('tinkersurvival:fiber_plants', VJ('short_grass'))
+
+	//Tagging for Breakable Via Fist
+	e.add('tinkersurvival:always_breakable', 'chancecubes:chance_cube')
+	e.add('tinkersurvival:always_breakable', 'supplementaries:stick')
+	
 	//end of block.tags
 })
