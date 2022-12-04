@@ -31,7 +31,7 @@ onEvent('block.right_click', e => {
 
 })
 
-onEvent("recipe", e => {
+onEvent("recipes", e => {
 
     //Item Application Crafting
     itemApplication("minecraft:quartz", "minecraft:stone", "minecraft:andesite")
