@@ -1,7 +1,16 @@
 //priority 0
 
 onEvent('block.right_click', e => {
-    //player.give("minecraft:andesite")
+    //In World Crafting
+    inWorldCrafting("tconstruct:sledge_hammer", "minecraft:andesite", "create:andesite_alloy", 75, 1)
+
+
+    //Item Application Crafting
+    itemApplication("minecraft:quartz", "minecraft:stone", "minecraft:andesite")
+
+
+
+
     function inWorldCrafting(item, hi, output, chance, damage) {
         if (e.hand != MAIN_HAND) {
             if (e.item.id === item && e.block.id === hi) {
@@ -24,5 +33,23 @@ onEvent('block.right_click', e => {
         }
     }
 
-    inWorldCrafting("tconstruct:sledge_hammer", "minecraft:andesite", "create:andesite_alloy", 75, 1)
+    function itemApplication(item, block, output) {
+        e.custom({
+            "type": "create:item_application",
+            "ingredients": [
+              {
+                "item": block
+              },
+              {
+                "item": item
+              }
+            ],
+            "results": [
+              {
+                "item": output
+              }
+            ]
+        })
+    }
+
 })
