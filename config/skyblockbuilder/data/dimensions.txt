@@ -1,6 +1,6 @@
 minecraft:overworld
-mythicbotany:alfheim
-minecraft:the_nether
-minecraft:the_end
 bloodmagic:dungeon
+minecraft:the_nether
 ae2:spatial_storage
+mythicbotany:alfheim
+minecraft:the_end

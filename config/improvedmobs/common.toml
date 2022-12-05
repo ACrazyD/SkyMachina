@@ -30,7 +30,7 @@
 	#PLAYERMAX: Maximum difficulty of players in a 256 radius around the position
 	#PLAYERMEAN: Average difficulty of players in a 256 radius around the position
 	#Allowed Values: GLOBAL, PLAYERMAX, PLAYERMEAN
-	"Difficulty type" = "GLOBAL"
+	"Difficulty type" = "PLAYERMEAN"
 
 #Black/Whitelist for various stuff
 [list]
@@ -102,11 +102,11 @@
 	"Breaker Cooldown" = 20
 	#Chance for a mob to be able to steal items
 	#Range: 0.0 ~ 1.0
-	"Stealer Chance" = 0.3
+	"Stealer Chance" = 0.0
 	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
 	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:iron_axe;2"]
 	#Should mobs be able to break tile entities? Evaluated before the break list
-	"Break Tiles" = true
+	"Break Tiles" = false
 	#Chance for neutral mobs to be aggressive
 	#Range: 0.0 ~ 1.0
 	"Neutral Aggressive Chance" = 0.2

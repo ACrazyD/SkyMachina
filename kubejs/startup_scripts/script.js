@@ -12,6 +12,15 @@ onEvent('block.registry', e => {
 })
 
 onEvent('fluid.registry', e => {
+	
+	//Liquid Andesite
+	e.create('liquid_andesite')
+	    .displayName('Liquid Andesite')
+		.bucketColor('0x999999')
+		.thickcolor('0x999999')
+		.id('skytweaks:fluid/liquid_andesite')
+	
+	
 
 	// These first examples are 1.16.5 and 1.18.2 syntax
 	// Basic "thick" (looks like lava) fluid with red tint
