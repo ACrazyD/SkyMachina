@@ -16,9 +16,11 @@ onEvent('fluid.registry', e => {
 	//Liquid Andesite
 	e.create('liquid_andesite')
 	    .displayName('Liquid Andesite')
-		.bucketColor('0x999999')
-		.thickcolor('0x999999')
+		.bucketColor(0x999999)
+		.thickTexture(0x999999)
 		.id('skytweaks:fluid/liquid_andesite')
+			.noBucket()
+			.noBlock()
 	
 	
 
