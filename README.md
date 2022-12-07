@@ -1,4 +1,3 @@
-### VERY TEMP DESC. EXPERMENTAL MODPACK.
+### EXPERMENTAL MODPACK.
 
-Header
-![Header](AAA - GITHUB Upload/images/BH_SM_HEADER.png)
+![Header](https://www.bisecthosting.com/images/CF/SKYMACHINA/BH_SM_HEADER.png)
