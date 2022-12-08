@@ -22,8 +22,8 @@ onEvent('recipes', event => {
     //event.recipes.summoningrituals.altar('gold_ingot').itemOutput('blaze_rod').id(gatewayRecipeId('blaze'));
     event.recipes.summoningrituals.altar('iron_ingot').itemOutput('gunpowder').id(gatewayRecipeId('creeper'));
     event.recipes.summoningrituals
-		.altar('skytweaks:empty_gate_pearl') //catalyst
-        .itemOutput(Item.of('skytweaks:empty_gate_pearl', "{display:{Name:'{\"text\":\"Blaze Gateway Teir 1\"}'}}"))
+		.altar('skymachinatweaks:empty_gate_pearl') //catalyst
+        .itemOutput(Item.of('skymachinatweaks:empty_gate_pearl', "{display:{Name:'{\"text\":\"Blaze Gateway Teir 1\"}'}}"))
 		.input('minecraft:blaze_rod')
 		.input('create:blaze_cake')
 		.input('tconstruct:blazing_blood_bucket')

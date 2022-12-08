@@ -1,10 +1,9 @@
 // priority: 0
 
-console.info('Hello, World! (You will only see this line once in console, during startup)')
+console.info('Making Dreams, well... Making Items, Fluids, and Blocks real! (Tell they are added to SkyMachinaTweaks)')
 
 onEvent('item.registry', e => {
-	e.create('skytweaks:empty_gate_pearl').displayName('Empty Gate Pearl')
-	e.create('skytweaks:omni_mesh').displayName('Omni Mesh').model('createsifter:string_mesh').color(0, 0x15bf37)
+
 })
 
 onEvent('block.registry', e => {
@@ -18,11 +17,11 @@ onEvent('fluid.registry', e => {
 	    .displayName('Liquid Andesite')
 		.bucketColor(0x999999)
 		.thickTexture(0x999999)
-		.id('skytweaks:fluid/liquid_andesite')
-			.noBucket()
-			.noBlock()
 	
-	
+	e.create('molten_andesite_alloy')
+		.displayName('Molten Andesite Alloy')
+		.bucketColor(0x999999)
+		.thickTexture(0x999999)
 
 	// These first examples are 1.16.5 and 1.18.2 syntax
 	// Basic "thick" (looks like lava) fluid with red tint
