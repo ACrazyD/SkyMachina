@@ -1,6 +1,6 @@
 // priority: 0
 
-console.info('Making Dreams, well... Making Items, Fluids, and Blocks real! (Tell they are added to SkyMachinaTweaks)')
+console.info('Making Dreams, well... Making Items, Fluids, and Blocks real! (Til they are added to SkyMachinaTweaks)')
 
 onEvent('item.registry', e => {
 	
@@ -12,8 +12,8 @@ onEvent('item.registry', e => {
 	e.create('circuit_enhanced_incomplete','create:sequenced_assembly').displayName('Incomplete Basic Enhanced')
 	e.create('circuit_advanced').displayName('Advanced Circuitry')
 	e.create('circuit_advanced_incomplete','create:sequenced_assembly').displayName('Incomplete Basic Advanced')
-	e.create('circuit_industrial_grade').displayName('Industrial Grade Circuitry')
-	e.create('circuit_industrial_grade_incomplete','create:sequenced_assembly').displayName('Incomplete Industrial Grade Circuitry')
+	e.create('circuit_industrial').displayName('Industrial Grade Circuitry')
+	e.create('circuit_industrial_incomplete','create:sequenced_assembly').displayName('Incomplete Industrial Grade Circuitry')
 	e.create('circuit_overclocked').displayName('Overclocked Circuitry')
 	e.create('circuit_overclocked_incomplete','create:sequenced_assembly').displayName('Incomplete Overclocked Circuitry')
 	e.create('circuit_reliable').displayName('Reliable Circuitry')
