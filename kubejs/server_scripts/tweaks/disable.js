@@ -20,7 +20,6 @@ onEvent('recipes', e => {
     e.remove({mod: 'createsifter'})
     e.remove({mod: 'createaddition'})
     e.remove({mod: 'compressedcreativity'})
-    e.remove({mod: 'rstm'})
     //Mek
     e.remove({mod: 'mekanism'})
     e.remove({mod: 'mekanismgenerators'})

@@ -37,10 +37,16 @@ onEvent('item.registry', e => {
 	e.create('coil_gold').displayName('Gold Coil')
 	e.create('coil_aluminum').displayName('Aluminium Coil')
 	//Misc Parts
+	e.create('insulator').displayName('Insulator')
+	e.create('reinforced_glass_panel').displayName('Reinforced Glass Panel')
 	e.create('motor_kinetic').displayName('Kinetic Motor')
 	e.create('motor_electrostatic').displayName('Electrostatic Motor')
 	e.create('motor_brushless').displayName('Brushless Motor')
+	e.create('motor_compact_turbine').displayName('Compact Turbine')
+	e.create('motor_compact_steam_turbine').displayName('Compact Steam Turbine')
 
+	//Misc Other Items
+	e.create('scrap_metal').displayName('Scrap metal')
 
 
 
