@@ -35,6 +35,7 @@ onEvent("recipes", e => {
 
     //Item Application Crafting
     itemApplication("minecraft:quartz", "minecraft:stone", "minecraft:andesite")
+    itemApplication("minecraft:redstone", "create:shaft", "create:gantry_shaft")
 
 
     function itemApplication(item, block, output) {
