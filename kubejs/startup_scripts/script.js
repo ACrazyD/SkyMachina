@@ -48,10 +48,11 @@ onEvent('item.registry', e => {
 	//Misc Other Items
 	e.create('scrap_metal').displayName('Scrap Metal')
     e.create('scrap_crystal').displayName('Scrap Crystal')
+	e.create('crude_storage_interface').displayName('Crude Storage Interface')
 	e.create('crude_storage_matrix').displayName('Crude Storage Matrix')
 	e.create('crude_import_matrix').displayName('Crude Import Matrix')
 	e.create('crude_export_matrix').displayName('Crude Export Matrix')
-	
+
 
 
 

@@ -26,6 +26,8 @@ let TP = (id, x) => MOD('telepastries', id, x)
 let ST = (id, x) => MOD('skytweaks', id, x)
 let VJ = (id, x) => MOD('projectvibrantjourneys', id, x)
 let TS = (id, x) => MOD('toms_storage', id, x)
+let BM = (id,x ) => MOD('bloodmagic', id, x)
+let BT = (id,x) => MOD('botania', id, x)
 
 
 
