@@ -48,7 +48,11 @@ onEvent('item.registry', e => {
 	//Misc Other Items
 	e.create('scrap_metal').displayName('Scrap metal')
 
-
+	//Custom Gear Crafting
+	e.create('andesite_alloy_rod').displayName('Andesite Alloy Rod').texture('createadditions:item/iron_rod')
+	e.create('wood_chips').displayName('Small Woodchips').burntime(200)
+	e.create('crude_spring').displayName('Crude Spring')
+	e.create('chisel').displayName('Chisel').maxDamage(200)
 
 })
 
@@ -62,7 +66,8 @@ e.create('foil_').displayName('')
 
 
 onEvent('block.registry', e => {
-	
+	e.create('small_cog_base').displayName('Small Cog Base')
+	e.create('large_cog_base').displayName('Large Cog Base')
 })
 
 onEvent('fluid.registry', e => {
