@@ -9,3 +9,127 @@ customization-meta {
   backgroundcolor = 3C0C44
 }
 
+customization {
+  orientation = top-centered
+  x = 0
+  action = editlogo
+  y = 10
+}
+
+customization {
+  orientation = mid-left
+  shadow = true
+  x = 2
+  textcolor = #ffffff
+  action = addtext
+  actionid = e8c8872b-7a3a-4f4a-97bd-f52d91c4bd2e1670733545926
+  y = -40
+  scale = 1.0
+  alignment = left
+  value = || Used Memory = %usedram%MB
+}
+
+customization {
+  orientation = mid-left
+  shadow = true
+  x = 2
+  textcolor = #ffffff
+  action = addtext
+  actionid = 13ce6c72-d67c-4bbf-af8e-cc9b2872cd6a1670733624275
+  y = -17
+  scale = 1.0
+  alignment = left
+  value = || Loaded Mods: %loadedmods%
+}
+
+customization {
+  orientation = mid-left
+  shadow = true
+  x = 2
+  textcolor = #ffffff
+  action = addtext
+  actionid = c478afac-8eeb-4df2-afa8-0a2f0fabd31b1670733669434
+  y = 23
+  scale = 1.0
+  alignment = left
+  value = || CPU: %cpuinfo%
+}
+
+customization {
+  orientation = mid-left
+  shadow = true
+  x = 2
+  textcolor = #ffffff
+  action = addtext
+  actionid = 5dbcf0d0-1a7d-4868-bbf4-58d30edb514f1670733720218
+  y = 46
+  scale = 1.0
+  alignment = left
+  value = || OpenGL Version: %openglversion%
+}
+
+customization {
+  orientation = mid-left
+  shadow = true
+  x = 2
+  textcolor = #ffffff
+  action = addtext
+  actionid = 34e4adf1-1753-4df1-bd47-6489c4510b8b1670734197287
+  y = -31
+  scale = 1.0
+  alignment = left
+  value = || Max Memory = %maxram%MB
+}
+
+customization {
+  orientation = mid-left
+  shadow = true
+  x = 2
+  textcolor = #ffffff
+  action = addtext
+  actionid = fc26c1f0-d262-4f1e-ac62-342676f4828d1670734273337
+  y = -8
+  scale = 1.0
+  alignment = left
+  value = || Minecraft Version: %mcversion%
+}
+
+customization {
+  orientation = mid-left
+  shadow = true
+  x = 2
+  textcolor = #ffffff
+  action = addtext
+  actionid = 2d52330f-f87d-4908-9ed6-a663e044e3381670734317329
+  y = 5
+  scale = 1.0
+  alignment = left
+  value = || OS: %osname%
+}
+
+customization {
+  orientation = mid-left
+  shadow = true
+  x = 2
+  textcolor = #ffffff
+  action = addtext
+  actionid = b6981aef-1348-424a-aa74-3f1530b20b751670734335981
+  y = 14
+  scale = 1.0
+  alignment = left
+  value = || GPU: %gpuinfo%
+}
+
+customization {
+  orientation = mid-left
+  shadow = true
+  x = 2
+  textcolor = #ffffff
+  action = addtext
+  actionid = 7a173acb-63c0-489a-9b63-a6b2a2a212371670734477978
+  y = 37
+  scale = 1.0
+  alignment = left
+  value = || Java Version: %javaversion%
+}
+

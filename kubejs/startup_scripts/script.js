@@ -46,7 +46,12 @@ onEvent('item.registry', e => {
 	e.create('motor_compact_steam_turbine').displayName('Compact Steam Turbine')
 
 	//Misc Other Items
-	e.create('scrap_metal').displayName('Scrap metal')
+	e.create('scrap_metal').displayName('Scrap Metal')
+    e.create('scrap_crystal').displayName('Scrap Crystal')
+	e.create('crude_storage_matrix').displayName('Crude Storage Matrix')
+	e.create('crude_import_matrix').displayName('Crude Import Matrix')
+	e.create('crude_export_matrix').displayName('Crude Export Matrix')
+	
 
 	//Custom Gear Crafting
 	e.create('andesite_alloy_rod').displayName('Andesite Alloy Rod').texture('createadditions:item/iron_rod')
