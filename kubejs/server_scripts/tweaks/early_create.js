@@ -7,8 +7,8 @@ onEvent('recipes', e => {
         'sas',
         ' s '
     ], {
-        s: '#minecraft:wooden_stairs',
-        a: 'kubejs:andesite_alloy_rod'
+        s: MC('#wooden_stairs'),
+        a: SK('andesite_alloy_rod')
     })
 
     e.shaped('kubejs:large_cog_base', [
@@ -16,8 +16,8 @@ onEvent('recipes', e => {
         'sas',
         'sss'
     ], {
-        s: '#minecraft:wooden_stairs',
-        a: 'kubejs:andesite_alloy_rod'
+        s: MC('#wooden_stairs'),
+        a: SK('andesite_alloy_rod')
     })
     function cogwheels(cogwheel, block) {
         e.custom({
@@ -37,7 +37,7 @@ onEvent('recipes', e => {
                 },
                 {
                     "type": "drop_item",
-                    "item": "kubejs:wood_chips",
+                    "item": "skymachinatweaks:wood_chips",
                     "contextual": {
                         "type": "chance",
                         "chance": 0.2

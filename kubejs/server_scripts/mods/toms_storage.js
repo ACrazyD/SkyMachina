@@ -7,31 +7,31 @@ onEvent('recipes', e => {
     e.remove({output: 'toms_storage:ts.inventory_proxy' })
 
     //Internal Items
-    e.shaped('2x kubejs:crude_import_matrix', [
+    e.shaped('2x skymachinatweaks:crude_import_matrix', [
         'H',
         'C'
     ], {
         H: MC('hopper'),
-        C: KJ('circuit_basic')
+        C: SK('circuit_basic')
     }).id('skytweaks:crude_import_matrix')
 
-    e.shaped('2x kubejs:crude_export_matrix', [
+    e.shaped('2x skymachinatweaks:crude_export_matrix', [
         'H',
         'C'
     ], {
-        H: KJ('circuit_basic'),
+        H: SK('circuit_basic'),
         C: MC('hopper')
     }).id('skytweaks:crude_export_matrix')
 
-    e.shaped(KJ('crude_storage_matrix'), [
+    e.shaped(SK('crude_storage_matrix'), [
         'c c',
         'ibx',
         'c c'
     ], {
-        c: KJ('circuit_basic'),
-        i: KJ('crude_import_matrix'),
+        c: SK('circuit_basic'),
+        i: SK('crude_import_matrix'),
         b: MC('crafting_table'),
-        x: KJ('crude_export_matrix')
+        x: SK('crude_export_matrix')
     })
 
     //Toms Items
@@ -41,7 +41,7 @@ onEvent('recipes', e => {
         ' c '
     ], {
         c: TS('ts.inventory_cable_connector'),
-        m: KJ('crude_storage_matrix')
+        m: SK('crude_storage_matrix')
     })
 
     e.shaped(TS('ts.storage_terminal'), [
@@ -49,11 +49,11 @@ onEvent('recipes', e => {
         'chv',
         ' x '
     ], {
-        i: KJ('crude_import_matrix'),
+        i: SK('crude_import_matrix'),
         c: TS('ts.inventory_cable'),
         h: MC('chest'),
         v: TS('ts.inventory_cable_connector'),
-        x: KJ('crude_export_matrix')
+        x: SK('crude_export_matrix')
     })
 
     e.shaped(TS('ts.trim'), [
@@ -76,7 +76,7 @@ onEvent('recipes', e => {
         'cip'
     ], {
         c: TS('ts.inventory_cable'),
-        i: KJ('crude_storage_matrix'),
+        i: SK('crude_storage_matrix'),
         p: MC('#wooden_pressure_plates')
     })
 
@@ -102,18 +102,18 @@ onEvent('recipes', e => {
         ' b '
     ],{
         c: MC('crafting_table'),
-        i: KJ('crude_import_matrix'),
+        i: SK('crude_import_matrix'),
         t: TS('ts.storage_terminal'),
-        x: KJ('crude_export_matrix'),
-        b: KJ('circuit_basic')
+        x: SK('crude_export_matrix'),
+        b: SK('circuit_basic')
     })
 
     e.shaped(TS('ts.inventory_hopper_basic'),[
         'icx'
     ],{
-        i: KJ('crude_import_matrix'),
+        i: SK('crude_import_matrix'),
         c: MC('crafting_table'),
-        x: KJ('crude_export_matrix')
+        x: SK('crude_export_matrix')
     })
 
     e.shaped(TS('ts.level_emitter'),[
@@ -122,28 +122,28 @@ onEvent('recipes', e => {
     ],{
         t: MC('redstone_torch'),
         c: TS('ts.inventory_cable'),
-        s: KJ('crude_storage_interface')
+        s: SK('crude_storage_interface')
     })
 
-    e.shaped(KJ('crude_storage_interface'), [
+    e.shaped(SK('crude_storage_interface'), [
         'c c',
         'ibx',
         'c c'
     ],{
-        c: KJ('circuit_basic'),
-        i: KJ('crude_import_matrix'),
+        c: SK('circuit_basic'),
+        i: SK('crude_import_matrix'),
         b: MC('crafting_table'),
-        x: KJ('crude_export_matrix')
+        x: SK('crude_export_matrix')
     })
 
-    e.shaped(KJ('crude_storage_matrix'),[
+    e.shaped(SK('crude_storage_matrix'),[
         'bcb',
         'cic',
         'bcb'
     ],{
-        b: KJ('circuit_basic'),
+        b: SK('circuit_basic'),
         c: F('#chests'),
-        i: KJ('crude_storage_interface')
+        i: SK('crude_storage_interface')
     })
 
     e.shaped(TS('ts.wireless_terminal'), [
@@ -153,7 +153,7 @@ onEvent('recipes', e => {
     ], {
         p: BT('mana_pearl'),
         c: MC('chest'),
-        i: KJ('crude_storage_interface'),
+        i: SK('crude_storage_interface'),
         b: MC('crafting_table')
     })
 
@@ -162,9 +162,9 @@ onEvent('recipes', e => {
         'pwp',
         'ope'
     ], {
-        e: KJ('circuit_enhanced'),
+        e: SK('circuit_enhanced'),
         p: BT('mana_pearl'),
-        o: KJ('circuit_overclocked'),
+        o: SK('circuit_overclocked'),
         w: TS('ts.wireless_terminal')
     })
 
