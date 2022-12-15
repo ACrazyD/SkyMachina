@@ -19,41 +19,25 @@ onEvent('recipes', e => {
         s: MC('#wooden_stairs'),
         a: SK('andesite_alloy_rod')
     })
-    function cogwheels(cogwheel, block) {
-        e.custom({
-            "type": "lychee:block_interacting",
-            "item_in": {
-                "tag": '#forge:tools/knives'
-            },
-            "block_in": block,
-            "post": [
-                {
-                    "type": "drop_item",
-                    "item": cogwheel,
-                    "contextual": {
-                        "type": "chance",
-                        "chance": 1
-                    }
-                },
-                {
-                    "type": "drop_item",
-                    "item": "skymachinatweaks:wood_chips",
-                    "contextual": {
-                        "type": "chance",
-                        "chance": 0.2
-                    }
-                },
-                {
-                    "type": "place",
-                    "block": "*"
-                },
-                {
-                    "type": "damage_item"
-                }
-            ]
-        })
-    }
-    cogwheels("create:large_cogwheel", "kubejs:large_cogwheel_base")
-    cogwheels("create:cogwheel", "kubejs:small_cogwheel_base")
+
+    e.custom(new Lychee()
+        .recipeBlockInteracting()
+        .inItem('#forge:tools/knives')
+        .inBlock('kubejs:small_cog_base')
+        .outItem('create:cogwheel')
+        .outItem('skymachinatweaks:wood_chips')
+        .outBlock('air')
+        .outDamageItem()
+        .recipe).id('skytweaks:hand/cog')
+
+    e.custom(new Lychee()
+        .recipeBlockInteracting()
+        .inItem('#forge:tools/knives')
+        .inBlock('kubejs:large_cog_base')
+        .outItem('create:large_cogwheel')
+        .outItem('skymachinatweaks:wood_chips')
+        .outBlock('air')
+        .outDamageItem()
+        .recipe).id('skytweaks:hand/large_cog')
     //End of Recipes
 })
