@@ -106,3 +106,38 @@
 			#Range: 0.0 ~ 20.0
 			critical_pressure = 5.0
 
+	#Industrial Air Blower
+	[machines.industrial_air_blower]
+		#Air Volume of the machine
+		#Default value: 1000
+		#Range: > 0
+		volume = 1000
+		#Pressure Tier of the machine
+		#All but CUSTOM one match Pressure Tiers from PNC:R
+		#Allowed Values: TIER_ONE, TIER_ONE_HALF, TIER_TWO, CUSTOM
+		pressure_tier = "TIER_ONE_HALF"
+
+		#Values from Custom Air Pressure for this machine
+		[machines.industrial_air_blower.custom_pressure]
+			#Danger Pressure of the machine
+			#Default value: 5.0
+			#Range: 0.0 ~ 20.0
+			danger_pressure = 5.0
+			#Additional Critical Pressure of the machine.
+			#Actual Critical Pressure is the sum of this value and Danger Pressure
+			#Default value: 2.0
+			#Range: 0.0 ~ 20.0
+			critical_pressure = 2.0
+
+#General Configuration
+[general]
+	#If Copper Backtank has pneumatic capability in item form
+	backtank_compat_item = true
+	#If Copper Backtank has pneumatic capability in block form
+	backtank_compat_block = true
+	#If Pneumatic Chestplate (with charging upgrade) can provide air to Create tools
+	chestplate_compat = true
+	#Minimal Pneumatic Chestplate pressure required to act as Copper Backtank
+	#Range: 0.0 ~ 9.0
+	chestplate_min_pressure = 2.0
+

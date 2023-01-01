@@ -833,7 +833,6 @@ structuresii:endtree
 structuresii:endtower_2
 structuresii:endhouse
 structuresii:mysticaltree
-flying_castles_knights:flyingcastle
 robs_floating_islands:forest_camp
 robs_floating_islands:desert_temple
 robs_floating_islands:igloo

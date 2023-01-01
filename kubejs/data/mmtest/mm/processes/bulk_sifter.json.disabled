@@ -1,0 +1,142 @@
+{
+    "duration": 40,
+    "structureId": "mmtest:bulk_sifter",
+    "name": {
+        "text": "Bulk Sifting"
+    },
+    "inputs": [
+        {
+            "type": "mm:gate/or",
+            "conditions": [
+                {
+                    "type": "mm:gate/and",
+                    "conditions": [
+                        {
+                            "type": "mm:per_tick",
+                            "ingredient": {
+                                "type": "mm:create_rotation",
+                                "speed": 100
+                            }
+                        },
+                        {
+                            "type": "mm:simple",
+                            "ingredient": {
+                                "type": "mm:item",
+                                "item": "minecraft:gravel",
+                                "count": 32
+                            }
+                        },
+                        {
+                            "type": "mm:simple",
+                            "chance": 0,
+                            "ingredient": {
+                                "type": "mm:item",
+                                "item": "createsifter:zinc_mesh",
+                                "count": 1
+                            }
+                        },
+                        {
+                            "type": "mm:simple",
+                            "ingredient": {
+                                "type": "mm:mekanism_gas",
+                                "gas": "mekanism:oxygen",
+                                "amount": 100
+                            }
+                        },
+                        {
+                            "type": "mm:tick_modifier",
+                            "newDuration": 15
+                        }
+                    ]
+                },
+                {
+                    "type": "mm:gate/and",
+                    "conditions": [
+                        {
+                            "type": "mm:per_tick",
+                            "ingredient": {
+                                "type": "mm:create_rotation",
+                                "speed": 100
+                            }
+                        },
+                        {
+                            "type": "mm:simple",
+                            "ingredient": {
+                                "type": "mm:item",
+                                "item": "minecraft:gravel",
+                                "count": 32
+                            }
+                        },
+                        {
+                            "type": "mm:simple",
+                            "chance": 0,
+                            "ingredient": {
+                                "type": "mm:item",
+                                "item": "createsifter:zinc_mesh",
+                                "count": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "outputs": [
+        {
+            "type": "mm:port_designated",
+            "portId": "internal_rot",
+            "entry": {
+                "type": "mm:per_tick",
+                "ingredient": {
+                "type": "mm:create_rotation",
+                "speed": 64
+                }
+            }
+        },
+        {
+            "type": "mm:simple",
+            "chance": 0.6,
+            "ingredient": {
+                "type": "mm:item",
+                "item": "skymachinatweaks:dusty_crushed_ore_l3",
+                "count": 32
+            }
+        },
+        {
+            "type": "mm:simple",
+            "chance": 0.3,
+            "ingredient": {
+                "type": "mm:item",
+                "item": "skymachinatweaks:dusty_crushed_ore_l2",
+                "count": 56
+            }
+        },
+        {
+            "type": "mm:simple",
+            "chance": 0.2,
+            "ingredient": {
+                "type": "mm:item",
+                "item": "create:experience_nugget",
+                "count": 32
+            }
+        },
+        {
+            "type": "mm:simple",
+            "chance": 0.3,
+            "ingredient": {
+                "type": "mm:item",
+                "item": "minecraft:flint",
+                "count": 56
+            }
+        },
+        {
+            "type": "mm:simple",
+            "chance": 0.3,
+            "ingredient": {
+                "type": "mm:item",
+                "item": "skymachinatweaks:dusty_crushed_ore_l0",
+                "count": 32
+            }
+        }
+    ]
+}

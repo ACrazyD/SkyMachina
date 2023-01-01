@@ -69,6 +69,9 @@
 		#How many half hearts will the Wither regen at max difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Regeneration" = 2.4
+		#Bonus regeneration will be multiplied by this ratio when the Wither has been hit in the last 3 seconds.
+		#Range: 0.0 ~ 2.0
+		"Bonus Regeneration Ratio When Hit" = 0.6
 
 	#Handles the Damage Resistances and Vulnerabilities
 	[Wither."Resistances & Vulnerabilities"]
@@ -239,6 +242,9 @@
 		#How much health (when missing 100% health) will the Ender Dragon regen at max difficulty each second whenever she's attached to a Crystal. So if she's missing 30% health, this will be 30% effective. This is added to the normal Crystal regen.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Crystal Regeneration" = 0.0
+		#Bonus regeneration (also crystal bonus regeneration) will be multiplied by this ratio when the Dragon has been hit in the last 3 seconds.
+		#Range: 0.0 ~ 2.0
+		"Bonus Regeneration Ratio When Hit" = 0.4
 
 	#Makes the dragon hit harder in various different ways
 	[Dragon.Attack]
