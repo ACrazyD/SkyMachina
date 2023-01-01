@@ -1,0 +1,86 @@
+{
+  "controllerId": "mm:forge_hammer",
+  "name": {
+      "text": "Alternator"
+  },
+  "layout": [
+      [
+          "     ",
+          " AAA ",
+          " ABA ",
+          " ABA ",
+          " ABA ",
+          " AAA ",
+          "  A  ",
+          "     "
+      ],
+      [
+          " ACA ",
+          "A D A",
+          "A D A",
+          "A D A",
+          "A D A",
+          "A D A",
+          " ADA ",
+          "  A  "
+      ],
+      [
+          " AEA ",
+          "ADEDA",
+          "BDEDB",
+          "FDEDF",
+          "BDEDB",
+          "ADEDA",
+          "ADEDA",
+          " AGA "
+      ],
+      [
+          " AAA ",
+          "A D A",
+          "A D A",
+          "A D A",
+          "A D A",
+          "A D A",
+          " ADA ",
+          "  A  "
+      ],
+      [
+          "     ",
+          " AAA ",
+          " ABA ",
+          " ABA ",
+          " ABA ",
+          " AAA ",
+          "  A  ",
+          "     "
+      ]
+  ],
+  "key": {
+      "A": {
+          "type": "mm:block",
+          "block": "create:refined_radiance_casing"
+      },
+      "B": {
+          "type": "mm:block",
+          "block": "create:shadow_steel_casing"
+      },
+      "D": {
+          "type": "mm:block",
+          "block": "mekanismgenerators:electromagnetic_coil"
+      },
+      "E": {
+          "type": "mm:block",
+          "block": "create:shaft"
+      },
+      "F": {
+          "type": "mm:port",
+          "port": "mm:energy",
+          "input": false
+      },
+      "G": {
+          "type": "mm:port",
+          "port": "mm:create_rotation",
+          "input": true
+      }
+  }
+}

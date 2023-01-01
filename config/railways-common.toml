@@ -1,6 +1,6 @@
 
-#General settings
-[general]
-	#sorceror
-	hibye = false
+#Semaphore settings
+[semaphore]
+	#Whether semaphore color order is reversed when the semaphores are oriented upside-down
+	semaphoresFlipYellowOrder = false
 

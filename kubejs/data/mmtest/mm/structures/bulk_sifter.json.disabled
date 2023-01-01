@@ -1,0 +1,150 @@
+{
+  "controllerId": "mm:forge_hammer",
+  "name": {
+      "text": "Bulk Sifter"
+  },
+  "layout": [
+      [
+          "     ",
+          " DDD ",
+          "DAPAD",
+          "DAPAD",
+          "DAPAD",
+          " AQA ",
+          "DAPAD",
+          "DAPAD",
+          "DAPAD",
+          " DDD ",
+          "     ",
+          "     "
+      ],
+      [
+          "     ",
+          " AAA ",
+          "G M G",
+          "G M G",
+          "G M G",
+          " AAA ",
+          "G M G",
+          "G M G",
+          "G M G",
+          " ANA ",
+          "     ",
+          "     "
+      ],
+      [
+          "     ",
+          " ACA ",
+          "G A G",
+          "GIJIG",
+          "G A G",
+          " KLK ",
+          "G A G",
+          "GIJIG",
+          "G A G",
+          " AAA ",
+          "     ",
+          "     "
+      ],
+      [
+          "  E  ",
+          " AFA ",
+          "G A G",
+          "G A G",
+          "G A G",
+          " AAA ",
+          "G A G",
+          "G A G",
+          "G A G",
+          " AHA ",
+          "  E  ",
+          "     "
+      ],
+      [
+          " ABA ",
+          " ABA ",
+          "DABAD",
+          "DABAD",
+          "DABAD",
+          " ABA ",
+          "DABAD",
+          "DABAD",
+          "DABAD",
+          " ABA ",
+          " ABA ",
+          "  B  "
+      ]
+  ],
+  "key": {
+      "A": {
+          "type": "mm:block",
+          "block": "create:brass_casing"
+      },
+      "B": {
+          "type": "mm:block",
+          "block": "create:belt"
+      },
+      "D": {
+          "type": "mm:block",
+          "block": "create:waxed_copper_shingle_stairs"
+      },
+      "E": {
+          "type": "mm:block",
+          "block": "create:brass_belt_funnel"
+      },
+      "F": {
+          "type": "mm:port",
+          "port": "mm:item",
+          "input": true
+      },
+      "G": {
+          "type": "mm:block",
+          "block": "create:framed_glass_trapdoor"
+      },
+      "H": {
+          "type": "mm:port",
+          "port": "mm:item",
+          "input": false
+      },
+      "I": {
+          "type": "mm:block",
+          "block": "extendedflywheels:steelflywheel"
+      },
+      "J": {
+          "type": "mm:port",
+          "port": "mm:create_rotation",
+          "input": false
+      },
+      "K": {
+          "type": "mm:block",
+          "block": "chipped:redstone_lamp_18"
+      },
+      "L": {
+          "type": "mm:block",
+          "block": "minecraft:redstone_block"
+      },
+      "M": {
+          "type": "mm:block",
+          "block": "createsifter:sifter"
+      },
+      "N": {
+          "type": "mm:port",
+          "id": "internal_rot",
+          "port": "mm:create_rotation",
+          "input": true
+      },
+      "O": {
+          "type": "mm:block",
+          "block": "minecraft:stone"
+      },
+      "P": {
+          "type": "mm:block",
+          "block": "tconstruct:white_clear_stained_glass"
+      },
+      "Q": {
+          "type": "mm:port",
+          "port": "mm:mekanism_gas",
+          "input": true
+      }
+  }
+}
