@@ -129,6 +129,34 @@ onEvent('recipes', e => {
         })
     }
 
+    function castingTable(cast, consume, fluid, amount, result, time) {
+      e.custom({
+        "type": "tconstruct:casting_table",
+        "cast": {
+          "item": cast
+        },
+        "cast_consumed": consume,
+        "fluid": {
+          "name": fluid,
+          "amount": amount
+        },
+        "result": result,
+        "cooling_time": time
+      })
+    }
+
+    function castingBasin(fluid, amount, result, time){
+      e.custom({
+        "type": "tconstruct:casting_basin",
+        "fluid": {
+          "name": fluid,
+          "amount": amount
+        },
+        "result": result,
+        "cooling_time": time
+      })
+    }
+
 
     //End of Functions
 
@@ -144,7 +172,8 @@ onEvent('recipes', e => {
     tinkersAlloy2in('forge:liquid_andesite', 50, 'forge:molten_zinc', 50, 'kubejs:molten_andesite_alloy', 100)
 
     //Tinkers Casting
-    casting_table('create:andesite_alloy', 'kubejs:molten_andesite_alloy', 90).cast().coolingTime(180)
+    castingTable('tconstruct:rod_cast', 'false', 'kubejs:molten_andesite_alloy', 144, 'skymachinatweaks:andesite_alloy_rod', 20)
+    //e.recipes.tconstruct.casting_table('create:andesite_alloy', 'kubejs:molten_andesite_alloy', 90).cast().coolingTime(180)
 
 
 
