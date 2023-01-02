@@ -1,4 +1,6 @@
 //priority 0
+//packmode: expertMode
+
 console.info('Converty Mc.Converter Face')
 
 onEvent('recipes', e => {

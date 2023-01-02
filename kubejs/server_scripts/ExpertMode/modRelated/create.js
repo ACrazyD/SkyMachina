@@ -1,4 +1,7 @@
 //priority 0
+//packmode: expertMode
+
+
 console.info('Sifty Sifty...')
 
 onEvent('recipes', e => {

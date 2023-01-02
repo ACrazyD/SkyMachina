@@ -1,4 +1,6 @@
 //priority 0
+//packmode: expertMode
+
 console.info('Misc. Jargen')
 
 onEvent('recipes', e => {

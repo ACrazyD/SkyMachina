@@ -1,4 +1,6 @@
 //priority 0
+//packmode: expertMode
+
 console.info('Eating Your Portals?')
 
 onEvent('recipes', e => {

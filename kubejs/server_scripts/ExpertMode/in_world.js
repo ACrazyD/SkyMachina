@@ -1,3 +1,5 @@
+//packmode: expertMode
+
 //priority 0
 
 onEvent('block.right_click', e => {

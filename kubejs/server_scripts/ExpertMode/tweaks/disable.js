@@ -1,4 +1,5 @@
 //priority 0
+//packmode: expertMode
 
 settings.logAddedRecipes = false
 settings.logRemovedRecipes = false

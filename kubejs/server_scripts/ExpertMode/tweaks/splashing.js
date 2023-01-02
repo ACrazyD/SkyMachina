@@ -1,4 +1,6 @@
 // priority: 1
+//packmode: expertMode
+
 console.info('Spashing Your Stuff')
 
 

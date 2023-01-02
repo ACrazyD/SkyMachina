@@ -1,4 +1,6 @@
 //priority 0
+//packmode: expertMode
+
 console.info('Summoning Cthulhu or Something')
 
 //Gateway ID Key

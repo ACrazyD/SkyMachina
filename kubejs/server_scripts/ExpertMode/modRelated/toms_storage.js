@@ -1,3 +1,5 @@
+//packmode: expertMode
+
 console.info('Toms Storage Recipes Found.')
 
 onEvent('recipes', e => {

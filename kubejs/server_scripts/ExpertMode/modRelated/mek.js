@@ -1,3 +1,6 @@
+//priority 1
+//packmode: expertMode
+
 console.info('Making Mek Boring...')
 
 onEvent('recipes', e => {

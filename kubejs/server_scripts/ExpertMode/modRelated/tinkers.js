@@ -1,4 +1,7 @@
 //priority 0
+//packmode: expertMode
+
+
 console.info('Smelty Smelty.')
 
 ////CASTING TABLE////
