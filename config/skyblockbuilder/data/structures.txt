@@ -17,9 +17,6 @@ minecraft:village
 minecraft:nether_fossil
 minecraft:bastion_remnant
 underground_villages:underground_village
-paraglider:underground_horned_statue
-paraglider:nether_horned_statue
-paraglider:tarrey_town_goddess_statue
 idas:idas_jigsaw_structure
 idas:idas_underground_jigsaw_structure
 idas:idas_nether_jigsaw_structure
