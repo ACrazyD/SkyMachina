@@ -38,13 +38,13 @@
 	#Range: > 0
 	LeadMeshDurability = 512
 	LeadMeshTakesDurability = true
-	#The chance to take durability on meshes in the sifter
-	#Range: 0.0 ~ 1.0
-	DurabilityTakeChance = 0.25
 	#What the max durability of the CreateSifter omni mesh should be.
 	#Range: > 0
 	OmniMeshDurability = 512
 	OmniMeshTakesDurability = true
+	#The chance to take durability on meshes in the sifter
+	#Range: 0.0 ~ 1.0
+	DurabilityTakeChance = 0.25
 
 [Tweaks]
 	#The max length a vine can grow down

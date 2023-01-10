@@ -3,4 +3,6 @@
 [semaphore]
 	#Whether semaphore color order is reversed when the semaphores are oriented upside-down
 	semaphoresFlipYellowOrder = false
+	#Simplified semaphore placement
+	simplifiedSemaphorePlacement = true
 

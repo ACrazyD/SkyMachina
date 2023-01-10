@@ -183,6 +183,9 @@ minecraft:trees_jungle
 minecraft:bamboo_vegetation
 minecraft:mushroom_island_vegetation
 chancecubes:chance_cube_worldgen
+gregtech:rubber_tree_normal
+gregtech:rubber_tree_jungle
+gregtech:rubber_tree_swamp
 quark:glow_shrooms
 quark:glow_extras
 plants_and_rocks:small_podzol_1

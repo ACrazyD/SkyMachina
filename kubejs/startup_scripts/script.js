@@ -13,6 +13,7 @@ onEvent('block.registry', e => {
 
 onEvent('fluid.registry', e => {
 	
+	/*
 	//Liquid Andesite
 	e.create('liquid_andesite')
 	    .displayName('Liquid Andesite')
@@ -23,6 +24,7 @@ onEvent('fluid.registry', e => {
 		.displayName('Molten Andesite Alloy')
 		.bucketColor(0x999999)
 		.thickTexture(0x999999)
+	*/
 
 	// These first examples are 1.16.5 and 1.18.2 syntax
 	// Basic "thick" (looks like lava) fluid with red tint
