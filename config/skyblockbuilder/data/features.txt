@@ -855,15 +855,6 @@ floating_islands:pond
 floating_islands:small_pond
 floating_islands:hellstructure
 floating_islands:broken_hell_structure
-thermal:niter_ore
-thermal:sulfur_ore
-thermal:tin_ore
-thermal:lead_ore
-thermal:silver_ore
-thermal:nickel_ore
-thermal:apatite_ore
-thermal:cinnabar_ore
-thermal:oil_sand
 mekanism:ore_tin_small
 mekanism:ore_tin_small_retrogen
 mekanism:ore_tin_large
