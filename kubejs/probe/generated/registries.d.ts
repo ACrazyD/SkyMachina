@@ -80,24 +80,6 @@ declare namespace Registry {
         create(id: string, type: "basic"): Internal.VillagerProfessionBuilder;
         create(id: string): Internal.VillagerProfessionBuilder;
     }
-    class Gas extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
-        create(id: string, type: "basic"): Internal.KubeJSGasBuilder;
-        create(id: string): Internal.KubeJSGasBuilder;
-    }
-    class InfuseType extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
-        create(id: string, type: "basic"): Internal.KubeJSInfuseTypeBuilder;
-        create(id: string): Internal.KubeJSInfuseTypeBuilder;
-    }
-    class Pigment extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
-        create(id: string, type: "basic"): Internal.KubeJSPigmentBuilder;
-        create(id: string): Internal.KubeJSPigmentBuilder;
-    }
-    class Slurry extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
-        create(id: string, type: "basic"): Internal.KubeJSSlurryBuilder$Basic;
-        create(id: string, type: "dirty"): Internal.KubeJSSlurryBuilder$Dirty;
-        create(id: string, type: "clean"): Internal.KubeJSSlurryBuilder$Clean;
-        create(id: string): Internal.KubeJSSlurryBuilder$Basic;
-    }
     class Brews extends Internal.RegistryObjectBuilderTypes$RegistryEventJS<any> {
         create(id: string, type: "basic"): Internal.BasicBrewJS$Builder;
         create(id: string): Internal.BasicBrewJS$Builder;

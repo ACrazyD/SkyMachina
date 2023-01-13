@@ -197,10 +197,6 @@ onEvent("recipes", e => {
 			  Item.of("minecraft:redstone").withChance(0.3),
 			  Item.of("minecraft:prismarine_crystals").withChance(0.2),
 			  Item.of("minecraft:prismarine_shard").withChance(0.2),
-			  Item.of("thermal:cinnabar").withChance(0.7),
-			  Item.of("thermal:niter").withChance(0.4),
-			  Item.of("thermal:sulfur").withChance(0.6),
-			  Item.of("botania:pebble").withChance(0.8),
 			],
 			"botania:pebble"
 		  ).processingTime(1200).id('skytweaks:crushing/geoed_cracking');

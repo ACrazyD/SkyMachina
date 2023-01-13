@@ -30,10 +30,8 @@ onEvent('block.tags', e => {
 
 onEvent('fluid.tags', e => {
 
-	e.add('forge:liquid_andesite', 'kubejs:liquid_andesite')
 	e.add('forge:molten_zinc', 'tconstruct:molten_zinc')
 	e.add('forge:molten_andesite_alloy', 'kubejs:molten_andesite_alloy')
-
 
 	//End of fluid.tags
 })

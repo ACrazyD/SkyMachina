@@ -37,12 +37,10 @@ e.remove({
         .createSplashing(
         [
             Item.of("minecraft:flint").withChance(0.2),
-            Item.of("minecraft:lapis_lazuli").withChance(0.2),
             Item.of("minecraft:coal").withChance(0.4),
             Item.of("create:experience_nugget").withChance(0.03),
             Item.of("create:zinc_nugget").withChance(0.1),
             Item.of("create:copper_nugget").withChance(0.12),
-            Item.of("minecraft:gold_nugget").withChance(0.6),
             Item.of("minecraft:iron_nugget").withChance(0.7),
         ],
         "skymachinatweaks:dusty_crushed_ore_l2"
@@ -54,6 +52,7 @@ e.remove({
         [
             Item.of("create:crushed_zinc_ore").withChance(0.2),
             Item.of("create:crushed_iron_ore").withChance(0.2),
+            Item.of("minecraft:lapis_lazuli").withChance(0.2),
             Item.of("create:experience_nugget").withChance(0.4),
         ],
         "skymachinatweaks:dusty_crushed_ore_l3"
@@ -64,8 +63,6 @@ e.remove({
         .createSplashing(
         [
             Item.of("create:crushed_tin_ore").withChance(0.2),
-            Item.of("create:crushed_lead_ore").withChance(0.2),
-            Item.of("create:crushed_nickel_ore").withChance(0.2),
             Item.of("create:experience_nugget").withChance(0.4),
         ],
         "skymachinatweaks:dusty_crushed_ore_l4"
@@ -75,7 +72,7 @@ e.remove({
     e.recipes
         .createSplashing(
         [
-            Item.of("create:crushed_osmium_ore").withChance(0.2),
+
             Item.of("create:crushed_silver_ore").withChance(0.2),
             Item.of("create:experience_nugget").withChance(0.4),
         ],
@@ -87,7 +84,6 @@ e.remove({
         .createSplashing(
         [
             Item.of("create:crushed_uranium_ore").withChance(0.2),
-            Item.of("create:crushed_platinum_ore").withChance(0.2),
             Item.of("create:experience_nugget").withChance(0.4),
         ],
         "skymachinatweaks:dusty_crushed_ore_l6"
