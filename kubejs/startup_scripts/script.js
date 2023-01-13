@@ -3,7 +3,16 @@
 console.info('Making Dreams, well... Making Items, Fluids, and Blocks real! (Til they are added to SkyMachinaTweaks)')
 
 onEvent('item.registry', e => {
-
+	e.create('lv_mesh','createsifter:mesh').displayName('LV Mesh')
+	e.create('mv_mesh','createsifter:mesh').displayName('MV Mesh')
+	e.create('hv_mesh','createsifter:mesh').displayName('HV Mesh')
+	e.create('ev_mesh','createsifter:mesh').displayName('EV Mesh')
+	e.create('iv_mesh','createsifter:mesh').displayName('IV Mesh')
+	e.create('lv_mesh_2','createsifter:mesh').displayName('LV Mesh')
+	e.create('mv_mesh_2','createsifter:mesh').displayName('MV Mesh')
+	e.create('hv_mesh_2','createsifter:mesh').displayName('HV Mesh')
+	e.create('ev_mesh_2','createsifter:mesh').displayName('EV Mesh')
+	e.create('iv_mesh_2','createsifter:mesh').displayName('IV Mesh')
 })
 
 onEvent('block.registry', e => {

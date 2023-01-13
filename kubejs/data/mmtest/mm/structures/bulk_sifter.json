@@ -142,9 +142,8 @@
           "block": "tconstruct:white_clear_stained_glass"
       },
       "Q": {
-          "type": "mm:port",
-          "port": "mm:mekanism_gas",
-          "input": true
+          "type": "mm:block",
+          "block": "minecraft:stone"
       }
   }
 }

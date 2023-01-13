@@ -24,6 +24,7 @@ idas:idas_over_lava_nether_structure
 idas:idas_end_jigsaw_structure
 mythicbotany:andwari_cave
 byg:arch
+ae2:meteorite
 biomemakeover:sunken_ruin
 biomemakeover:ghost_town
 biomemakeover:mansion
@@ -33,5 +34,4 @@ tconstruct:sky_slime_island
 tconstruct:clay_island
 tconstruct:blood_island
 tconstruct:end_slime_island
-ae2:meteorite
 quark:mega_dungeon

@@ -10,8 +10,6 @@
   "block.mm.forge_hammer_controller": "Forge Hammer",
   "block.mm.large_input_port": "Large Input Input Port",
   "block.mm.large_output_port": "Large Output Output Port",
-  "block.mm.mek_gas_input_port": "Large Gas Input Port",
-  "block.mm.mek_gas_output_port": "Large Gas Output Port",
   "block.mm.radiance_controller_controller": "Radiance Controller",
   "block.mm.rot_input_port": "Large Rotation Input Port",
   "block.mm.rot_output_port": "Large Rotation Output Port",

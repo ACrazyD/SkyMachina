@@ -11,4 +11,14 @@
 		#Enable the mod? 
 		# (true/false)
 		enable_mod = true
+		#The horizontal offset of the HUD when no minimap is installed (in pixels)
+		# Default is 0
+		hud_x_position = 0
+		#The vertical offset of the HUD when no minimap is installed (in pixels)
+		# Default is 0
+		hud_y_position = 0
+		#Part of the screen to display the HUD when no minimap is installed
+		# Default is TOP_LEFT
+		#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
+		hud_location = "TOP_LEFT"
 
