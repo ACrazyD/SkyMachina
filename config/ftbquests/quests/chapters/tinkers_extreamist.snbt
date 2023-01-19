@@ -1,0 +1,19 @@
+{
+	id: "64F7602C42FDA5D7"
+	group: "66F24A47D7E12038"
+	order_index: 2
+	filename: "tinkers_extreamist"
+	title: "Tinkers Extreamist"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "2141B816FE005AAB"
+		tasks: [{
+			id: "32D2ED86E7086C77"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

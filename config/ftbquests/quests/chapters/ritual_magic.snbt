@@ -1,0 +1,19 @@
+{
+	id: "212BADBE16C5DC1B"
+	group: "5024C32B235B6720"
+	order_index: 2
+	filename: "ritual_magic"
+	title: "Ritual Magic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "48375B98A46CACE1"
+		tasks: [{
+			id: "076C3F1C89AA06BD"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

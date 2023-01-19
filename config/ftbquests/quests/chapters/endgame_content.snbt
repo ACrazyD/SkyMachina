@@ -1,0 +1,19 @@
+{
+	id: "5CBAA773A1970B74"
+	group: "7F8B9073B6520313"
+	order_index: 2
+	filename: "endgame_content"
+	title: "Endgame \"Content\""
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "7E9F637AB5F84603"
+		tasks: [{
+			id: "64148E37E7CC508B"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

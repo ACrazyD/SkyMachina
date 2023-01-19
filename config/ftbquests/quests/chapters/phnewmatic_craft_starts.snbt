@@ -1,0 +1,19 @@
+{
+	id: "36C52D9BB8F9F1BD"
+	group: "5024C32B235B6720"
+	order_index: 5
+	filename: "phnewmatic_craft_starts"
+	title: "Phnewmatic Craft Starts"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "62B1711C464D9372"
+		tasks: [{
+			id: "0058490003BB9FD6"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

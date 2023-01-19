@@ -1,0 +1,19 @@
+{
+	id: "7C6FFBA6A6106E7B"
+	group: "5024C32B235B6720"
+	order_index: 4
+	filename: "digital_semistorage"
+	title: "Digital Semi-Storage"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "60E5842663D3DB28"
+		tasks: [{
+			id: "6D4C811ED29CA83A"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

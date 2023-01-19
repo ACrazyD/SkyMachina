@@ -1,0 +1,19 @@
+{
+	id: "39518CAC2549FCC4"
+	group: "0F354F61F60968DA"
+	order_index: 2
+	filename: "create_steam_temp"
+	title: "Create (STEAM) (TEMP)"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "0F19904A9CC0733D"
+		tasks: [{
+			id: "2E1B789119466121"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

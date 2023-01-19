@@ -1,0 +1,19 @@
+{
+	id: "43CD0BA4AF400B0C"
+	group: "7F8B9073B6520313"
+	order_index: 0
+	filename: "greg_temp"
+	title: "Greg (Temp)"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "05B78897E1BD03CA"
+		tasks: [{
+			id: "219CCE39157BA05C"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

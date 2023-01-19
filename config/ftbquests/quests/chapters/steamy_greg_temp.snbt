@@ -1,0 +1,19 @@
+{
+	id: "60E87101EB15FC10"
+	group: "0F354F61F60968DA"
+	order_index: 3
+	filename: "steamy_greg_temp"
+	title: "Steamy Greg (Temp)"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "1977867AD682D47C"
+		tasks: [{
+			id: "75AA5A24DE23F607"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

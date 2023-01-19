@@ -1,0 +1,19 @@
+{
+	id: "57578C62E4F5ED3E"
+	group: "0F354F61F60968DA"
+	order_index: 0
+	filename: "stone_precopper_temp"
+	title: "Stone (PreBrass) (TEMP)"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "0E9C187B08DF74EE"
+		tasks: [{
+			id: "4153F027E50B734C"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,17 +1,17 @@
 {
-	id: "388C5E9F937AA662"
-	group: "11EDD7370361C87A"
+	id: "783ECFCFE8BD8576"
+	group: "66F24A47D7E12038"
 	order_index: 1
-	filename: "blood_magic"
-	title: "Blood Magic"
+	filename: "alchemistry"
+	title: "Alchemistry"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
 		x: 0.0d
 		y: 0.0d
-		id: "5AB28DBD02FFE4D9"
+		id: "310DA9B69E340BF2"
 		tasks: [{
-			id: "553F14B97865AD61"
+			id: "64D875952FAFCD47"
 			type: "checkmark"
 		}]
 	}]

@@ -1,7 +1,7 @@
 {
 	id: "0F5CF47C1DE781FB"
-	group: "6413AA6BC4CF0718"
-	order_index: 2
+	group: "66F24A47D7E12038"
+	order_index: 4
 	filename: "ars_noveau"
 	title: "Ars noveau"
 	icon: "ars_nouveau:creative_spell_book"
@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.5d
-			y: -1.5d
+			x: 0.0d
+			y: 0.0d
 			id: "0A2A5DFADA74243B"
 			tasks: [{
 				id: "4127EA2651E43319"
@@ -19,8 +19,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.5d
+			x: 2.5d
+			y: 0.0d
 			dependencies: ["0A2A5DFADA74243B"]
 			id: "13C7B670F18E091C"
 			tasks: [{
@@ -30,8 +30,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -1.5d
+			x: 6.0d
+			y: 0.0d
 			dependencies: ["13C7B670F18E091C"]
 			id: "4457B2AEAEEBEAC1"
 			tasks: [{
@@ -41,8 +41,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -1.5d
+			x: 9.0d
+			y: 0.0d
 			dependencies: ["4457B2AEAEEBEAC1"]
 			id: "376AADD517EED4A8"
 			tasks: [{
@@ -52,8 +52,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.5d
+			x: 2.5d
+			y: -1.0d
 			id: "5F847CEC9C3B45B8"
 			tasks: [{
 				id: "2E2B5ED2CDDEA6A7"
@@ -62,8 +62,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.5d
+			x: 1.5d
+			y: -1.0d
 			id: "6973963E3A908C71"
 			tasks: [{
 				id: "17154E2D0FF88343"
@@ -72,8 +72,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
+			x: 3.5d
+			y: -1.0d
 			id: "126FC12079434D43"
 			tasks: [{
 				id: "77A91C4F774C73BC"
@@ -82,8 +82,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: 3.5d
+			y: -2.0d
 			id: "3C6033787CFBD3F9"
 			tasks: [{
 				id: "57B057E1DCD8C3A0"
@@ -92,8 +92,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -3.5d
+			x: 2.5d
+			y: -2.0d
 			id: "173F987DF0F8449B"
 			tasks: [{
 				id: "0947BD1D37D174CE"
@@ -102,8 +102,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -3.5d
+			x: 1.5d
+			y: -2.0d
 			id: "11C0B5227FD8938B"
 			tasks: [{
 				id: "54F2F62512E9C696"
@@ -112,4 +112,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

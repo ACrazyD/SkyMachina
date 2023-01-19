@@ -1,17 +1,17 @@
 {
-	id: "388C5E9F937AA662"
-	group: "11EDD7370361C87A"
+	id: "6F0962F7786BBEFC"
+	group: "0F354F61F60968DA"
 	order_index: 1
-	filename: "blood_magic"
-	title: "Blood Magic"
+	filename: "stone_postbrass_temp"
+	title: "Stone (PostBrass) (TEMP)"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
 		x: 0.0d
 		y: 0.0d
-		id: "5AB28DBD02FFE4D9"
+		id: "35536AE060A16AE0"
 		tasks: [{
-			id: "553F14B97865AD61"
+			id: "0CA052FD42AA297C"
 			type: "checkmark"
 		}]
 	}]

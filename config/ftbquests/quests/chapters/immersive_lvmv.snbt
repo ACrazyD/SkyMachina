@@ -1,0 +1,19 @@
+{
+	id: "327763A8366D39D1"
+	group: "04E1BCBE789051BD"
+	order_index: 3
+	filename: "immersive_lvmv"
+	title: "Immersive LV-MV"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "19ECE6A395FBFEC9"
+		tasks: [{
+			id: "463C40466EDECA0E"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

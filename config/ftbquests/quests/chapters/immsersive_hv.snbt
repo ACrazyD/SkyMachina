@@ -1,17 +1,17 @@
 {
-	id: "388C5E9F937AA662"
-	group: "11EDD7370361C87A"
+	id: "5D2227B8611E9424"
+	group: "5024C32B235B6720"
 	order_index: 1
-	filename: "blood_magic"
-	title: "Blood Magic"
+	filename: "immsersive_hv"
+	title: "Immsersive HV"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
 		x: 0.0d
 		y: 0.0d
-		id: "5AB28DBD02FFE4D9"
+		id: "20C68070297B7A95"
 		tasks: [{
-			id: "553F14B97865AD61"
+			id: "1D2821F01A54CBE9"
 			type: "checkmark"
 		}]
 	}]

@@ -1,0 +1,19 @@
+{
+	id: "3AC3AAE064255FE7"
+	group: "04E1BCBE789051BD"
+	order_index: 2
+	filename: "storage_connections"
+	title: "Storage Connections"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "1681A0E82DF1CDF8"
+		tasks: [{
+			id: "72C348445172C550"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

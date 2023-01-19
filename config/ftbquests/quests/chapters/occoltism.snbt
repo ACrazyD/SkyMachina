@@ -1,17 +1,17 @@
 {
-	id: "388C5E9F937AA662"
-	group: "11EDD7370361C87A"
+	id: "314A74DC78FB5677"
+	group: "04E1BCBE789051BD"
 	order_index: 1
-	filename: "blood_magic"
-	title: "Blood Magic"
+	filename: "occoltism"
+	title: "Occoltism"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
 		x: 0.0d
 		y: 0.0d
-		id: "5AB28DBD02FFE4D9"
+		id: "44F64612822F1365"
 		tasks: [{
-			id: "553F14B97865AD61"
+			id: "75A627B29447BC47"
 			type: "checkmark"
 		}]
 	}]

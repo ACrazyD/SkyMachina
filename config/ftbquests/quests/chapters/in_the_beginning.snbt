@@ -9,7 +9,7 @@
 	quests: [
 		{
 			title: "Slowly Getting There"
-			x: -1.5d
+			x: 0.0d
 			y: 0.0d
 			description: [
 				"Well well well"
@@ -39,10 +39,10 @@
 			]
 		}
 		{
-			title: "small flint?"
-			x: 1.0d
+			title: "No Trees Yet!"
+			x: 2.0d
 			y: 0.0d
-			description: ["smashing rocks against harder rocks? seems like a good idea"]
+			subtitle: "Gather flint from scattered remains around the world"
 			hide_dependency_lines: false
 			min_required_dependencies: 1
 			dependencies: [
@@ -52,30 +52,11 @@
 			]
 			hide: false
 			id: "443814B1C2B9D03A"
-			tasks: [
-				{
-					id: "19E1DA8332C12814"
-					type: "item"
-					item: "tinkersurvival:rock_stone"
-				}
-				{
-					id: "0318AE850A45B2B4"
-					type: "item"
-					item: {
-						id: "tinkersurvival:crude_knife"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "27AEB9735E886364"
-					type: "item"
-					item: "tinkersurvival:flint_shard"
-					count: 5L
-				}
-			]
+			tasks: [{
+				id: "4366E25AD89B8175"
+				type: "item"
+				item: "minecraft:flint"
+			}]
 			rewards: [
 				{
 					id: "636DC6332118EB22"
@@ -85,7 +66,7 @@
 				{
 					id: "2F1AEC0EE26270E3"
 					type: "item"
-					item: "tinkersurvival:flint_shard"
+					item: "minecraft:flint"
 					random_bonus: 15
 				}
 				{
@@ -98,83 +79,6 @@
 		}
 		{
 			x: 2.0d
-			y: 0.0d
-			description: [
-				"use that wonderful flint to make some tools"
-				"crude axe- allows you to mine logs"
-				"crude knife- allows you to collect plant fibers from grass with can be use to create plant string "
-				"crude saw-allows you to break down those logs into planks"
-			]
-			hide_dependency_lines: false
-			dependencies: ["443814B1C2B9D03A"]
-			id: "4AFE926CC170F833"
-			tasks: [
-				{
-					id: "7E540396F96FF962"
-					type: "item"
-					title: "Any #minecraft:logs"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:logs"
-						}
-					}
-					count: 5L
-				}
-				{
-					id: "45917BB6A834D590"
-					type: "item"
-					title: "Any #minecraft:planks"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "minecraft:planks"
-						}
-					}
-					count: 14L
-				}
-				{
-					id: "0D03F7C0DD514FFE"
-					type: "item"
-					item: "tinkersurvival:plant_fiber"
-				}
-				{
-					id: "21F3AD113AEC0D1D"
-					type: "item"
-					item: "tinkersurvival:plant_string"
-				}
-				{
-					id: "7BFFE706E9CFB51B"
-					type: "item"
-					title: "Any #forge:cobblestone"
-					item: {
-						id: "itemfilters:tag"
-						Count: 1b
-						tag: {
-							value: "forge:cobblestone"
-						}
-					}
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "021E7AD935E02517"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "35BD8307A3B87FD0"
-					type: "item"
-					item: "minecraft:oak_log"
-					random_bonus: 15
-				}
-			]
-		}
-		{
-			x: 1.0d
 			y: -2.0d
 			subtitle: "you can hold a block in your main hand and mesh in offhand(F) to sift"
 			description: [
@@ -214,10 +118,9 @@
 			]
 		}
 		{
-			x: 1.0d
+			x: 2.0d
 			y: -1.0d
-			subtitle: "cut wool to get string"
-			description: ["hold mesh in off hand and block of choice in main hand and go ham(right click)"]
+			subtitle: "Find some string and make your first mesh"
 			dependencies: ["443814B1C2B9D03A"]
 			id: "52DFDB714C673823"
 			tasks: [
@@ -227,7 +130,9 @@
 					item: {
 						id: "createsifter:string_mesh"
 						Count: 1b
-						tag: { }
+						tag: {
+							Damage: 0
+						}
 					}
 				}
 				{
@@ -255,33 +160,6 @@
 		}
 		{
 			x: 3.0d
-			y: 0.0d
-			description: ["these tools look strange"]
-			dependencies: ["4AFE926CC170F833"]
-			id: "202286BD1453768E"
-			tasks: [{
-				id: "25FBCADCBD810B5E"
-				type: "item"
-				item: "tconstruct:pattern"
-				count: 3L
-			}]
-			rewards: [
-				{
-					id: "09BF75A203C74CB5"
-					type: "item"
-					item: "tconstruct:pattern"
-					count: 3
-					random_bonus: 3
-				}
-				{
-					id: "37B32C12023034BC"
-					type: "item"
-					item: "libraryferret:iron_coins_jtl"
-				}
-			]
-		}
-		{
-			x: 2.0d
 			y: -2.0d
 			dependencies: ["10311277B6206BA1"]
 			id: "440912ACFBB83AE6"
@@ -291,7 +169,9 @@
 				item: {
 					id: "createsifter:andesite_mesh"
 					Count: 1b
-					tag: { }
+					tag: {
+						Damage: 0
+					}
 				}
 			}]
 			rewards: [{
@@ -302,7 +182,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 4.0d
 			y: -2.0d
 			dependencies: ["440912ACFBB83AE6"]
 			id: "45EE1BDC47077AD3"
@@ -312,12 +192,14 @@
 				item: {
 					id: "createsifter:zinc_mesh"
 					Count: 1b
-					tag: { }
+					tag: {
+						Damage: 0
+					}
 				}
 			}]
 		}
 		{
-			x: 4.0d
+			x: 5.0d
 			y: -2.0d
 			dependencies: ["45EE1BDC47077AD3"]
 			id: "53691FB57A091B95"
@@ -327,13 +209,15 @@
 				item: {
 					id: "createsifter:brass_mesh"
 					Count: 1b
-					tag: { }
+					tag: {
+						Damage: 0
+					}
 				}
 			}]
 		}
 		{
-			x: -1.5d
-			y: 2.0d
+			x: 0.0d
+			y: 1.5d
 			id: "5626807CB09FEE1F"
 			tasks: [{
 				id: "30E1AAA20CBC0FD0"
@@ -346,8 +230,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 3.0d
+			x: 0.0d
+			y: 2.5d
 			dependencies: ["5626807CB09FEE1F"]
 			id: "0CF24EB3B213AAD9"
 			tasks: [{
@@ -361,146 +245,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.0d
-			dependencies: ["5C5431230D50A650"]
-			id: "4A320DC52B6D2F83"
-			tasks: [{
-				id: "598A1ABBAEA37BEB"
-				type: "item"
-				item: {
-					id: "kubejs:lead_mesh"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 5.0d
-			y: -2.0d
-			dependencies: ["53691FB57A091B95"]
-			id: "5C5431230D50A650"
-			tasks: [{
-				id: "20F0D071E64A8BA5"
-				type: "item"
-				item: {
-					id: "kubejs:steel_mesh"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 3.0d
-			y: -1.0d
-			description: [
-				"Congrats you got iron"
-				"what now?"
-			]
-			dependencies: ["52DFDB714C673823"]
-			id: "0F0619774DCDE030"
-			tasks: [{
-				id: "0215FF81224268BD"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
-		}
-		{
-			x: 4.0d
-			y: 0.0d
-			dependencies: [
-				"0F0619774DCDE030"
-				"202286BD1453768E"
-			]
-			id: "642C5D4710D75635"
-			tasks: [
-				{
-					id: "200DA998A326A960"
-					type: "item"
-					item: {
-						id: "tconstruct:pickaxe"
-						Count: 1b
-						tag: {
-							tic_multipliers: { }
-							tic_stats: {
-								"tconstruct:attack_speed": 1.2f
-								"tconstruct:mining_speed": 6.0f
-								"tconstruct:attack_damage": 2.0f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:durability": 398.75f
-							}
-							tic_broken: 0b
-							tic_modifiers: [
-								{
-									name: "tconstruct:piercing"
-									level: 1s
-								}
-								{
-									name: "tconstruct:sturdy"
-									level: 3s
-								}
-							]
-							tic_materials: [
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-							]
-							Damage: 0
-							tic_persistent_data: {
-								abilities: 1
-								upgrades: 3
-							}
-						}
-					}
-				}
-				{
-					id: "069D1027DA6B6A19"
-					type: "item"
-					item: {
-						id: "tconstruct:sword"
-						Count: 1b
-						tag: {
-							tic_multipliers: {
-								"tconstruct:mining_speed": 0.5f
-								"tconstruct:durability": 1.1f
-							}
-							tic_stats: {
-								"tconstruct:attack_speed": 1.6f
-								"tconstruct:mining_speed": 3.0f
-								"tconstruct:attack_damage": 5.0f
-								"tconstruct:harvest_tier": "minecraft:iron"
-								"tconstruct:durability": 438.625f
-							}
-							tic_broken: 0b
-							tic_modifiers: [
-								{
-									name: "tconstruct:sturdy"
-									level: 3s
-								}
-								{
-									name: "tconstruct:silky_shears"
-									level: 1s
-								}
-							]
-							tic_materials: [
-								"tconstruct:iron"
-								"tconstruct:iron"
-								"tconstruct:iron"
-							]
-							Damage: 0
-							tic_persistent_data: {
-								abilities: 1
-								upgrades: 3
-							}
-						}
-					}
-				}
-			]
-		}
-		{
 			title: "Hell"
-			x: 0.5d
-			y: 2.0d
+			x: 2.0d
+			y: 1.5d
 			description: ["congrats you made it to hell"]
 			id: "6653478CEDA26DE4"
 			tasks: [{
@@ -515,7 +262,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 2.0d
 			y: -3.0d
 			description: ["Congrats you harnessed the power of watah!"]
 			dependencies: ["10311277B6206BA1"]
@@ -532,5 +279,58 @@
 				item: "libraryferret:iron_coins_jtl"
 			}]
 		}
+		{
+			x: 1.0d
+			y: -5.0d
+			shape: "gear"
+			subtitle: "This is the shape of a Required Quest Branch"
+			description: ["Most often this will be breaking out to many quests"]
+			size: 1.5d
+			id: "5201F5CDAD51BE23"
+			tasks: [{
+				id: "5C74FADC10E00894"
+				type: "checkmark"
+				title: "Required Quest"
+			}]
+		}
+		{
+			title: "Side Quests"
+			x: 4.25d
+			y: -5.0d
+			shape: "hexagon"
+			subtitle: "This is the shape of a Side Quest line"
+			description: ["May help guide you though something, or unlock something you will need later"]
+			id: "68462E7FE6B88BD2"
+			tasks: [{
+				id: "2C8ED2FE78885CA9"
+				type: "checkmark"
+				title: "Side Quests"
+			}]
+		}
+		{
+			x: 5.25d
+			y: -5.0d
+			subtitle: "These are fully optional quests. random items and such"
+			id: "48EC248CAEB51985"
+			tasks: [{
+				id: "3A21A7B471977E5C"
+				type: "checkmark"
+				title: "Optional Quests"
+			}]
+		}
+		{
+			x: 2.25d
+			y: -5.0d
+			shape: "octagon"
+			subtitle: "More Required Quests"
+			description: ["This most likly wont branch out"]
+			id: "1077F55B421DA39C"
+			tasks: [{
+				id: "54C7B9E813FA415E"
+				type: "checkmark"
+				title: "Required Quest Standard"
+			}]
+		}
 	]
+	quest_links: [ ]
 }

@@ -1,17 +1,17 @@
 {
-	id: "388C5E9F937AA662"
+	id: "04684C045D74BCB8"
 	group: "11EDD7370361C87A"
-	order_index: 1
-	filename: "blood_magic"
-	title: "Blood Magic"
+	order_index: 2
+	filename: "true_digital_automation"
+	title: "True Digital Automation."
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
 		x: 0.0d
 		y: 0.0d
-		id: "5AB28DBD02FFE4D9"
+		id: "64543F68BF0EF678"
 		tasks: [{
-			id: "553F14B97865AD61"
+			id: "759B1EC93C3CD20A"
 			type: "checkmark"
 		}]
 	}]

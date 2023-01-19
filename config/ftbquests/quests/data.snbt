@@ -1,5 +1,7 @@
 {
 	version: 13
+	title: "SkyMachina"
+	icon: "antimatter_shared:gear_cobalt_brass"
 	default_reward_team: false
 	default_consume_items: false
 	default_autoclaim_rewards: "disabled"
@@ -16,4 +18,5 @@
 	grid_scale: 0.5d
 	pause_game: false
 	lock_message: ""
+	progression_mode: "linear"
 }

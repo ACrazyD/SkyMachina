@@ -1,17 +1,17 @@
 {
-	id: "388C5E9F937AA662"
-	group: "11EDD7370361C87A"
+	id: "4FA44A3C572D2DD9"
+	group: "7F8B9073B6520313"
 	order_index: 1
-	filename: "blood_magic"
-	title: "Blood Magic"
+	filename: "lazy_ae2"
+	title: "Lazy AE2"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
 		x: 0.0d
 		y: 0.0d
-		id: "5AB28DBD02FFE4D9"
+		id: "1BD13E3A1CA07243"
 		tasks: [{
-			id: "553F14B97865AD61"
+			id: "3A236CACD0B25F68"
 			type: "checkmark"
 		}]
 	}]

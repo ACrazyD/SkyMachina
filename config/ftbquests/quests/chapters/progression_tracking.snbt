@@ -1,17 +1,17 @@
 {
-	id: "388C5E9F937AA662"
-	group: "11EDD7370361C87A"
+	id: "64E599CCB2DF6F0B"
+	group: "6413AA6BC4CF0718"
 	order_index: 1
-	filename: "blood_magic"
-	title: "Blood Magic"
+	filename: "progression_tracking"
+	title: "Progression Tracking"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
 		x: 0.0d
 		y: 0.0d
-		id: "5AB28DBD02FFE4D9"
+		id: "4EA1F2657CF9888C"
 		tasks: [{
-			id: "553F14B97865AD61"
+			id: "56355D8BBE907834"
 			type: "checkmark"
 		}]
 	}]

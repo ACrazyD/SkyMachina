@@ -1,6 +1,12 @@
 {
 	chapter_groups: [
 		{ id: "6413AA6BC4CF0718", title: "Baby Steps" }
+		{ id: "0F354F61F60968DA", title: "Stone Age" }
+		{ id: "04E1BCBE789051BD", title: "LV" }
+		{ id: "5024C32B235B6720", title: "MV" }
+		{ id: "66F24A47D7E12038", title: "HV" }
+		{ id: "11EDD7370361C87A", title: "EV" }
+		{ id: "7F8B9073B6520313", title: "IV" }
 		{ id: "04B79D53D739947C", title: "Shopping For All!" }
 	]
 }
