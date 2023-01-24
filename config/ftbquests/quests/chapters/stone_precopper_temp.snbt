@@ -6,14 +6,32 @@
 	title: "Stone (PreBrass) (TEMP)"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "0E9C187B08DF74EE"
-		tasks: [{
-			id: "4153F027E50B734C"
-			type: "checkmark"
-		}]
-	}]
+	quests: [
+		{
+			title: "Welcome to the \"World\""
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["496D877F7F512692"]
+			size: 1.5d
+			id: "0E9C187B08DF74EE"
+			tasks: [{
+				id: "4153F027E50B734C"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			id: "4918CD30D1C229C9"
+			tasks: [{
+				id: "1F809BCB64801F27"
+				type: "checkmark"
+				title: "End Of Create (PreBrass)"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

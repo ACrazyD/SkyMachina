@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "in_the_beginning"
 	title: "In the Beginning"
+	icon: "create:andesite_casing"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -11,37 +12,26 @@
 			title: "Slowly Getting There"
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
 			description: [
 				"Well well well"
 				"You managed to not quite entirely delete the world this time..."
 				"FOXtm is no responsible for any incidents during paragliding"
 			]
 			dependency_requirement: "all_started"
+			size: 1.5d
 			id: "38F33A5829BFAA09"
 			tasks: [{
 				id: "4B6C6B1C0979661F"
 				type: "dimension"
 				dimension: "minecraft:overworld"
 			}]
-			rewards: [
-				{
-					id: "1CBD53218B2522BA"
-					type: "item"
-					item: "libraryferret:iron_coins_jtl"
-				}
-				{
-					id: "3568C9D21EDAE814"
-					type: "choice"
-					icon: "simpleplanes:parachute"
-					exclude_from_claim_all: true
-					table_id: 7212967467733132709L
-				}
-			]
 		}
 		{
 			title: "No Trees Yet!"
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
+			shape: "diamond"
 			subtitle: "Gather flint from scattered remains around the world"
 			hide_dependency_lines: false
 			min_required_dependencies: 1
@@ -57,70 +47,20 @@
 				type: "item"
 				item: "minecraft:flint"
 			}]
-			rewards: [
-				{
-					id: "636DC6332118EB22"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "2F1AEC0EE26270E3"
-					type: "item"
-					item: "minecraft:flint"
-					random_bonus: 15
-				}
-				{
-					id: "2B53AD34C08CD2C2"
-					type: "item"
-					item: "libraryferret:iron_coins_jtl"
-					random_bonus: 5
-				}
-			]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
-			subtitle: "you can hold a block in your main hand and mesh in offhand(F) to sift"
-			description: [
-				"sift through blocks whats more to say?"
-				"use your knew knife to cut wool(inside crafting table)"
-			]
-			dependencies: ["52DFDB714C673823"]
-			id: "10311277B6206BA1"
-			tasks: [
-				{
-					id: "771D9591D4751B73"
-					type: "item"
-					item: "createsifter:sifter"
+			icon: {
+				id: "createsifter:string_mesh"
+				Count: 1b
+				tag: {
+					Damage: 0
 				}
-				{
-					id: "5FE52BFA08A3F8BE"
-					type: "item"
-					item: "create:cogwheel"
-				}
-				{
-					id: "73F6541F69C9DD35"
-					type: "item"
-					item: "create:hand_crank"
-				}
-			]
-			rewards: [
-				{
-					id: "54225AB145002620"
-					type: "item"
-					item: "libraryferret:iron_coins_jtl"
-				}
-				{
-					id: "78AEA48E1B9A6A81"
-					type: "xp"
-					xp: 25
-				}
-			]
-		}
-		{
-			x: 2.0d
+			}
+			x: 2.5d
 			y: -1.0d
+			shape: "diamond"
 			subtitle: "Find some string and make your first mesh"
+			description: ["Fun Fact: You can Sift Underwater for \"WatterLogged\" outputs."]
 			dependencies: ["443814B1C2B9D03A"]
 			id: "52DFDB714C673823"
 			tasks: [
@@ -159,129 +99,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.0d
-			dependencies: ["10311277B6206BA1"]
-			id: "440912ACFBB83AE6"
-			tasks: [{
-				id: "774B4A14E721E682"
-				type: "item"
-				item: {
-					id: "createsifter:andesite_mesh"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "028ACBAC44F62388"
-				type: "item"
-				item: "libraryferret:iron_coins_jtl"
-				random_bonus: 4
-			}]
-		}
-		{
-			x: 4.0d
-			y: -2.0d
-			dependencies: ["440912ACFBB83AE6"]
-			id: "45EE1BDC47077AD3"
-			tasks: [{
-				id: "6B5B105BE3C20684"
-				type: "item"
-				item: {
-					id: "createsifter:zinc_mesh"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 5.0d
-			y: -2.0d
-			dependencies: ["45EE1BDC47077AD3"]
-			id: "53691FB57A091B95"
-			tasks: [{
-				id: "50906BDAAAB67408"
-				type: "item"
-				item: {
-					id: "createsifter:brass_mesh"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 0.0d
-			y: 1.5d
-			id: "5626807CB09FEE1F"
-			tasks: [{
-				id: "30E1AAA20CBC0FD0"
-				type: "item"
-				item: {
-					id: "kubejs:cr_mana_mesh"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 0.0d
-			y: 2.5d
-			dependencies: ["5626807CB09FEE1F"]
-			id: "0CF24EB3B213AAD9"
-			tasks: [{
-				id: "21006F169FEA614E"
-				type: "item"
-				item: {
-					id: "kubejs:cr_blood_mesh"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			title: "Hell"
-			x: 2.0d
-			y: 1.5d
-			description: ["congrats you made it to hell"]
-			id: "6653478CEDA26DE4"
-			tasks: [{
-				id: "530E0D94231F5F7A"
-				type: "dimension"
-				dimension: "minecraft:the_nether"
-			}]
-			rewards: [{
-				id: "23B0F436B7F97F78"
-				type: "item"
-				item: "libraryferret:diamond_coins_jtl"
-			}]
-		}
-		{
-			x: 2.0d
-			y: -3.0d
-			description: ["Congrats you harnessed the power of watah!"]
-			dependencies: ["10311277B6206BA1"]
-			optional: true
-			id: "34E0E54F4366D174"
-			tasks: [{
-				id: "6C02C6F098A77229"
-				type: "item"
-				item: "create:water_wheel"
-			}]
-			rewards: [{
-				id: "4BB0224DBD10833B"
-				type: "item"
-				item: "libraryferret:iron_coins_jtl"
-			}]
-		}
-		{
-			x: 1.0d
-			y: -5.0d
+			x: 5.25d
+			y: -4.5d
 			shape: "gear"
 			subtitle: "This is the shape of a Required Quest Branch"
 			description: ["Most often this will be breaking out to many quests"]
@@ -295,8 +114,8 @@
 		}
 		{
 			title: "Side Quests"
-			x: 4.25d
-			y: -5.0d
+			x: 8.0d
+			y: -4.5d
 			shape: "hexagon"
 			subtitle: "This is the shape of a Side Quest line"
 			description: ["May help guide you though something, or unlock something you will need later"]
@@ -308,8 +127,8 @@
 			}]
 		}
 		{
-			x: 5.25d
-			y: -5.0d
+			x: 9.0d
+			y: -4.5d
 			subtitle: "These are fully optional quests. random items and such"
 			id: "48EC248CAEB51985"
 			tasks: [{
@@ -319,9 +138,9 @@
 			}]
 		}
 		{
-			x: 2.25d
-			y: -5.0d
-			shape: "octagon"
+			x: 6.5d
+			y: -4.5d
+			shape: "diamond"
 			subtitle: "More Required Quests"
 			description: ["This most likly wont branch out"]
 			id: "1077F55B421DA39C"
@@ -329,6 +148,434 @@
 				id: "54C7B9E813FA415E"
 				type: "checkmark"
 				title: "Required Quest Standard"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["443814B1C2B9D03A"]
+			id: "2CE52C9140361AD8"
+			tasks: [{
+				id: "08EE7E0DC8D6836B"
+				type: "item"
+				item: {
+					id: "nologpunch:flint_tool"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["2CE52C9140361AD8"]
+			id: "6125A37E1B07452D"
+			tasks: [{
+				id: "52B828B3F6F68282"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+		}
+		{
+			title: "I Recommend Tinkers Station"
+			icon: {
+				id: "tconstruct:tinker_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: 4.5d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Gonna need these Very Soon!"
+			dependencies: ["6125A37E1B07452D"]
+			id: "4978F465DF0046D8"
+			tasks: [
+				{
+					id: "5E8A8EF88FD62392"
+					type: "item"
+					title: "Tinkers Tool Stations"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "21AE37B60F839F15"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: ["6125A37E1B07452D"]
+			id: "6EA4816E8825A429"
+			tasks: [{
+				id: "319BB07508C752FB"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["4978F465DF0046D8"]
+			id: "2BC3515BE94F0418"
+			tasks: [
+				{
+					id: "54D8A422DE7A5192"
+					type: "item"
+					item: {
+						id: "tconstruct:pick_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+				}
+				{
+					id: "7B1B4B71C1E3ABC8"
+					type: "item"
+					item: {
+						id: "tconstruct:small_axe_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:flint"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "minecraft:stripped_oak_log"
+			x: 6.5d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: [
+				"2BC3515BE94F0418"
+				"6EA4816E8825A429"
+			]
+			dependency_requirement: "one_completed"
+			id: "6BEE3A98227E91CA"
+			tasks: [{
+				id: "1F784DF3471D01DE"
+				type: "item"
+				title: "Any #forge:stripped_logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:stripped_logs"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["2BC3515BE94F0418"]
+			id: "1EE474A1BEF02162"
+			tasks: [{
+				id: "48BA6A8A91966F75"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			shape: "diamond"
+			dependencies: ["1EE474A1BEF02162"]
+			id: "2E3EC0329EAB64C2"
+			tasks: [{
+				id: "03995C38E472BFDE"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["2E3EC0329EAB64C2"]
+			id: "320E938486844794"
+			tasks: [{
+				id: "5DCEFA516E79E802"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			title: "String Mesh Outputs"
+			x: 3.5d
+			y: -2.0d
+			subtitle: "Im Just here to help :)"
+			dependencies: ["52DFDB714C673823"]
+			id: "07EAFA834AF232C1"
+			tasks: [
+				{
+					id: "5F01B312F7374174"
+					type: "item"
+					item: "create:zinc_nugget"
+				}
+				{
+					id: "489E55C53F45A28D"
+					type: "item"
+					item: "minecraft:flint"
+				}
+				{
+					id: "4CE0FAA8CFBA06D3"
+					type: "item"
+					item: "create:experience_nugget"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: [
+				"320E938486844794"
+				"1EC180422BBEBAE1"
+			]
+			id: "58FC3165C45BCEF5"
+			tasks: [{
+				id: "5159E7CB34ED77E8"
+				type: "item"
+				item: "createsifter:sifter"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: ["2E3EC0329EAB64C2"]
+			id: "689B113019017CDB"
+			tasks: [{
+				id: "42C6C826FEA39D3D"
+				type: "item"
+				item: "create:shaft"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["689B113019017CDB"]
+			id: "1EC180422BBEBAE1"
+			tasks: [{
+				id: "1BBA22F675544CCE"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			shape: "diamond"
+			dependencies: ["52DFDB714C673823"]
+			id: "4B9A2C2C49C8FE5B"
+			tasks: [{
+				id: "3385915FC0AF5FC6"
+				type: "item"
+				item: {
+					id: "createsifter:andesite_mesh"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Andesite Mesh Outputs"
+			x: 3.5d
+			y: -3.0d
+			subtitle: "Im just here to help :)"
+			dependencies: ["4B9A2C2C49C8FE5B"]
+			id: "32B8A6497375F8E3"
+			tasks: [
+				{
+					id: "662E0B999140C849"
+					type: "item"
+					item: "skymachinatweaks:dusty_crushed_ore_l0"
+				}
+				{
+					id: "26EB57616FF43467"
+					type: "item"
+					item: "skymachinatweaks:dusty_crushed_ore_l1"
+				}
+				{
+					id: "3BD31F4BA8A70E37"
+					type: "item"
+					item: "skymachinatweaks:dusty_crushed_ore_l2"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["4B9A2C2C49C8FE5B"]
+			id: "22BA313DE77E5590"
+			tasks: [{
+				id: "782AFA7FB6A4A82F"
+				type: "item"
+				item: {
+					id: "createsifter:zinc_mesh"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			shape: "diamond"
+			dependencies: ["22BA313DE77E5590"]
+			id: "0B37476F3DB2DDFE"
+			tasks: [{
+				id: "1084249B726755F4"
+				type: "item"
+				item: {
+					id: "createsifter:brass_mesh"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Zinc Mesh Outputs"
+			x: 3.5d
+			y: -4.0d
+			subtitle: "Im just here to help :)"
+			dependencies: ["22BA313DE77E5590"]
+			id: "41E8E053505FE300"
+			tasks: [
+				{
+					id: "3D674D9BB860745D"
+					type: "item"
+					item: "skymachinatweaks:dusty_crushed_ore_l0"
+				}
+				{
+					id: "357C7F40C3206C55"
+					type: "item"
+					item: "skymachinatweaks:dusty_crushed_ore_l2"
+				}
+				{
+					id: "71156764AD8D4273"
+					type: "item"
+					item: "skymachinatweaks:dusty_crushed_ore_l3"
+				}
+			]
+		}
+		{
+			title: "Brass Mesh Outputs"
+			x: 3.5d
+			y: -5.0d
+			subtitle: "Im just here to help :)"
+			dependencies: ["0B37476F3DB2DDFE"]
+			id: "18E832047E6DD316"
+			tasks: [
+				{
+					id: "3ACF753A1E421566"
+					type: "item"
+					item: "skymachinatweaks:dusty_crushed_ore_l0"
+				}
+				{
+					id: "095326D4148CC82D"
+					type: "item"
+					item: "skymachinatweaks:dusty_crushed_ore_l3"
+				}
+				{
+					id: "6E40489C971EAE61"
+					type: "item"
+					item: "skymachinatweaks:dusty_crushed_ore_l4"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: [
+				"320E938486844794"
+				"5477A22F7FAE659E"
+				"32B8A6497375F8E3"
+			]
+			id: "53A6C8DEA26FF1C0"
+			tasks: [{
+				id: "6854588F418A61F4"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["2E3EC0329EAB64C2"]
+			id: "5477A22F7FAE659E"
+			tasks: [{
+				id: "7BBFA27E09455E6B"
+				type: "item"
+				item: "create:propeller"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			shape: "gear"
+			subtitle: "Just to make sure your Informed"
+			description: [
+				"This modpack comes built with FTB:Chunks - This allows the user to claim land."
+				""
+				"Look to your top left for the map, Or press J (To open JourneyMap unless toy changed it) and look to the right."
+				""
+				"Now welcome to SkyMachina, Hope you \"Enjoy\" your stay."
+			]
+			dependencies: ["58FC3165C45BCEF5"]
+			size: 1.5d
+			id: "496D877F7F512692"
+			tasks: [{
+				id: "0D139F48D4B86889"
+				type: "checkmark"
+				title: "Final Notes"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: ["1EC180422BBEBAE1"]
+			id: "3C05135B9465A120"
+			tasks: [{
+				id: "7919BE116F83E70E"
+				type: "item"
+				item: "create:water_wheel"
 			}]
 		}
 	]

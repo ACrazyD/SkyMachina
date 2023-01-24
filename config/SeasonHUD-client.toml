@@ -21,4 +21,7 @@
 		# Default is TOP_LEFT
 		#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT
 		hud_location = "TOP_LEFT"
+		#Require the Calender item to be in the players inventory to show the HUD? 
+		# (true/false)
+		need_calendar = false
 

@@ -18,6 +18,7 @@ minecraft:nether_fossil
 minecraft:bastion_remnant
 underground_villages:underground_village
 idas:idas_jigsaw_structure
+idas:idas_rotation_fixed_jigsaw_structure
 idas:idas_underground_jigsaw_structure
 idas:idas_nether_jigsaw_structure
 idas:idas_over_lava_nether_structure

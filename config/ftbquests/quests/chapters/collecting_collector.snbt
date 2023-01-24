@@ -1,17 +1,17 @@
 {
-	id: "062986468894EB93"
-	group: "5024C32B235B6720"
+	id: "3DD95C0B6868564E"
+	group: "6413AA6BC4CF0718"
 	order_index: 2
-	filename: "advanced_tinkering"
-	title: "Advanced Tinkering"
+	filename: "collecting_collector"
+	title: "Collecting Collector"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
 		x: 0.0d
 		y: 0.0d
-		id: "2B2E73FA07E72878"
+		id: "251B679D09E1EE77"
 		tasks: [{
-			id: "2A8ACB51E6F40CA2"
+			id: "1F597F2F41562EE2"
 			type: "checkmark"
 		}]
 	}]
