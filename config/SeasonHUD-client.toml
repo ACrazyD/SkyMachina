@@ -24,4 +24,8 @@
 		#Require the Calender item to be in the players inventory to show the HUD? 
 		# (true/false)
 		need_calendar = false
+		#Show the Tropical seasons (Wet/Dry) in Tropical Biomes
+		# Will not change the season behavior
+		# (true/false)
+		enable_show_tropical_season = true
 

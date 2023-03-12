@@ -5,6 +5,8 @@
 	disableDemonsDreamShaders = false
 	#Disables holiday themed visual content such as familiar skins.
 	disableHolidayTheming = false
+	#Shows all tags an item has in the tooltip on hover if advanced tooltips (F3+H) are enabled.
+	showItemTagsInTooltip = false
 
 #Misc Settings
 [misc]

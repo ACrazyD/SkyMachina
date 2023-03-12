@@ -17,12 +17,11 @@ minecraft:village
 minecraft:nether_fossil
 minecraft:bastion_remnant
 underground_villages:underground_village
-idas:idas_jigsaw_structure
-idas:idas_rotation_fixed_jigsaw_structure
-idas:idas_underground_jigsaw_structure
-idas:idas_nether_jigsaw_structure
-idas:idas_over_lava_nether_structure
-idas:idas_end_jigsaw_structure
+integrated_api:generic_structure
+integrated_api:underground_structure
+integrated_api:nether_structure
+integrated_api:over_lava_nether_structure
+integrated_api:end_jigsaw_structure
 mythicbotany:andwari_cave
 byg:arch
 ae2:meteorite
