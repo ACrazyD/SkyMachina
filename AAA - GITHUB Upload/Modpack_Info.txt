@@ -1,0 +1,29 @@
+-=-=- Goals -=-=-
+- A Expert Skyblock based on progression though GregTech
+- Some magic mods to help full some holes in tech, and bring diversity to typical tech progression.
+- A Section of quests will push players to some challanges for some decent rewards
+- Quest lines leading users though each age, and though mods of note
+
+- Low level story to bring some life into the quest lines
+- Some light humor added to some items in the game, and maybe some random events like Stoneblock3 to make the world feel more alive.
+- I want to look into making it so some magic becomes unstable around tech, and some tech becomes unrelable around magic. - either by some basic KubesJS or the custom mod Benny has made for us stuff that breaks blocks if to close,
+or by rendering them unseable when within a magic aura. (Im gonna reach out to some people to see what i can dig up to make this work)
+
+
+
+
+
+
+
+
+
+
+
+
+-=-=- Story Ideas -=-=-
+*Will Note, Im looking for input here. So please do share it, either by adding a comit or othermeans.
+
+- Need a reason for the world to be as broken up as it is, this needs to explain the existance of magic, and tech in almost harmany
+- There also needs to be a reason for the random floating structures that have no land based ancor that are bount to happen,
+while still also lending to the fact that villages and the like will still spawn.
+

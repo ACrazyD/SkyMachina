@@ -1,0 +1,80 @@
+//priority 0
+//packmode: expertMode
+
+
+console.info('Tinkering Your Tinker')
+
+onEvent("recipes", event => {
+    
+    event.forEachRecipe({
+      type: "thermal:smelter",
+      id: /^thermal:machines\/smelter\/smelter_alloy_/
+    }, recipe => {
+      const { inputItems, outputItems: [ outputItem ] } = recipe;
+  
+      event.recipes.create.mixing(outputItem, inputItems).heated()
+        .id(`kubejs:mixing/${outputItem.id.path}`)
+    });
+
+
+    event.forEachRecipe({ type: 'tconstruct:alloy'}, r => {
+        var alloytemp = r.json.get('temperature').getAsInt()
+
+        console.info("MONKEY - OUTPUT FLUID:")
+        console.info(r.json.get('result').get('fluid').getAsString())
+        var outputfluid = r.json.get('result').get('fluid').getAsString() 
+        var outputfluid_amount = r.json.get('result').get('amount').getAsInt() 
+
+        console.info("MONKEY - INPUT FLUID 1:")
+        console.info( r.json.getAsJsonArray('inputs').get(0).get('tag').getAsString())
+        var inputfluid_1 = r.json.getAsJsonArray('inputs').get(0).get('tag').getAsString().replace("forge","tconstruct")
+
+        console.info("MONKEY - INPUT FLUID 2:")
+        console.info(r.json.get('inputs').getAsJsonArray().get(1).get('tag').getAsString()) 
+        var inputfluid_2 = r.json.get('inputs').getAsJsonArray().get(1).get('tag').getAsString().replace("forge","tconstruct")
+        var inputfluid_amount_1 = r.json.get('inputs').getAsJsonArray().get(0).get('amount').getAsInt()
+        var inputfluid_amount_2 = r.json.get('inputs').getAsJsonArray().get(1).get('amount').getAsInt()
+
+        if (alloytemp <= 1000) {
+            if (r.json.get('inputs').getAsJsonArray().size()>2){
+                console.info("MONKEY - INPUT FLUID 3:")
+                console.info( r.json.get('inputs').getAsJsonArray().get(2).get('tag').getAsString())
+                
+                var inputfluid_3 = r.json.get('inputs').getAsJsonArray().get(2).get('tag').getAsString().replace("forge","tconstruct")
+                var inputfluid_amount_3 = r.json.get('inputs').getAsJsonArray().get(2).get('amount').getAsInt() 
+
+                event.recipes.createMixing( Fluid.of(outputfluid, outputfluid_amount), [
+                    Fluid.of(inputfluid_1, inputfluid_amount_1),
+                    Fluid.of(inputfluid_2, inputfluid_amount_2),
+                    Fluid.of(inputfluid_3, inputfluid_amount_3)
+                ]).heated()
+            } else {
+                event.recipes.createMixing( Fluid.of(outputfluid, outputfluid_amount), [
+                    Fluid.of(inputfluid_1, inputfluid_amount_1),
+                    Fluid.of(inputfluid_2, inputfluid_amount_2)
+                ]).heated()
+            }
+
+            } else if (alloytemp > 1000) {
+            if (r.json.get('inputs').getAsJsonArray().size()>2){
+
+                console.info("MONKEY - INPUT FLUID 3:")
+                console.info( r.json.get('inputs').getAsJsonArray().get(2).get('tag').getAsString()) 
+                var inputfluid_3 = r.json.get('inputs').getAsJsonArray().get(2).get('tag').getAsString().replace("forge","tconstruct") 
+                var inputfluid_amount_3 = r.json.get('inputs').getAsJsonArray().get(2).get('amount').getAsInt() 
+
+                event.recipes.createMixing( Fluid.of(outputfluid, outputfluid_amount), [
+                    Fluid.of(inputfluid_1, inputfluid_amount_1),
+                    Fluid.of(inputfluid_2, inputfluid_amount_2),
+                    Fluid.of(inputfluid_3, inputfluid_amount_3)
+                ]).superheated()
+            } else {
+                event.recipes.createMixing( Fluid.of(outputfluid, outputfluid_amount), [
+                    Fluid.of(inputfluid_1, inputfluid_amount_1),
+                    Fluid.of(inputfluid_2, inputfluid_amount_2)
+                ]).superheated()
+            }
+            }
+
+})
+});
